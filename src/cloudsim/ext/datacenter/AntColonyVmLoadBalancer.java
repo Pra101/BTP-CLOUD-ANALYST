@@ -4,8 +4,13 @@ import java.util.Random;
 import cloudsim.VirtualMachine;
 
 public class AntColonyVmLoadBalancer extends VmLoadBalancer {
-	
+	/*
+	a 2D matrix
+	pheromones correspond to virtual machine nodes
+	 */
 	private double[][] pheromones;
+
+	// hyperparameters
 	static final double alpha = 1;
 	static final double beta = 1;
 	static final double ONE_UNIT_PHEROMONE = 1;
@@ -14,6 +19,10 @@ public class AntColonyVmLoadBalancer extends VmLoadBalancer {
 
 	Ant[] ants;
 	DatacenterController dcbLocal;
+
+	/*
+	checks initialization of datacenter
+	 */
 	int counter = 0;
 
 	public AntColonyVmLoadBalancer(DatacenterController dcb) {
@@ -23,24 +32,42 @@ public class AntColonyVmLoadBalancer extends VmLoadBalancer {
 
 	@Override
 	public int getNextAvailableVm() {
+		// if datacenter is not initialized
 		if(counter == 0)
-			{
-				pheromones = new double[dcbLocal.vmlist.size() + 1][dcbLocal.vmlist.size() + 1];
-				counter++;
-				ants = new Ant[NUM_ANTS];
-				for (int i = 0; i < ants.length; i++) {
-					ants[i] = new Ant(pheromones);
-				}
+		{
+			// allocate pheromones to virtual nodes
+			pheromones = new double[dcbLocal.vmlist.size() + 1][dcbLocal.vmlist.size() + 1];
+			counter++;
+			ants = new Ant[NUM_ANTS];
+
+			// each ant has been provided the entire grid
+			for (int i = 0; i < ants.length; i++) {
+				ants[i] = new Ant(pheromones);
 			}
-		
-		for (int ant = 0; ant < ants.length; ant++) {
-			ants[ant].SendAnt(); 
 		}
-		
+
+		/*
+		1. send all ants on the grid
+		2. evaporate the pheromones
+		3. send a query ant to the processed grid
+		4. the next available VM will be the VM that is returned by the query ant
+		5. mark the VM as allocated
+		 */
+
+
+		// start the work of each ant
+		for (Ant ant : ants) {
+			ant.SendAnt();
+		}
+
+		// after each iteration keep lowering the pheromones levels
+		// time complexity =  O(n^2)
 		Evaporation();
 
 		Ant queryAnt = new Ant(pheromones);
 		int vmId = queryAnt.FetchFinalVm();
+
+		// mark the VM as allocated
 		allocatedVm(vmId);
 		System.out.println("allocated "+vmId);
 		return vmId;
@@ -93,6 +120,8 @@ public class AntColonyVmLoadBalancer extends VmLoadBalancer {
 		public int getNextVmNode(int vmId) {
 			double[] probability = computeProbability(vmId);
 			Random rand = new Random();
+			// [0.1, 0.2, 0.3, 0.4 ....]
+			// -0.1
 			double randomization = rand.doubles(1, 0.0, 0.5).sum();
 			for (int i = 0; i < probability.length; i++) {
 				randomization = randomization - probability[i];

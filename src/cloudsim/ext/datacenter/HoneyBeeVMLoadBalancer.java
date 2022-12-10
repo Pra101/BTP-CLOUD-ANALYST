@@ -9,6 +9,9 @@ import cloudsim.ext.event.CloudSimEvents;
 public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEventListener {
 	private int cutoff = 1;
 	private int scoutBee = -1;
+
+	// there are 2 possible states
+	// busy and available
 	private Map<Integer, VirtualMachineState> vmStatesList;
 	Map<Integer, Integer> vmAllocationCounts = new HashMap<>();
 	Map<Integer, Integer> fitness = new HashMap<>();
@@ -22,9 +25,13 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 	
 	@Override
 	public int getNextAvailableVm(){
+
+		// initialize the next VMID to be fetched by -1
 		int vmId = -1;
 		vmId = getScoutBee();
 		scoutBee = vmId;
+
+		// mark the VM as allocated
 		allocatedVm(vmId);
 		System.out.println("allocated "+vmId);
 		return vmId;
@@ -35,12 +42,15 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 		if (e.getId() == CloudSimEvents.EVENT_CLOUDLET_ALLOCATED_TO_VM)
 		{
 			int vmId = (Integer) e.getParameter(Constants.PARAM_VM_ID);
+
 			int countCloudlets;
+
 			if(vmAllocationCounts.get(vmId)==null)
 				countCloudlets = 0;
 			else
 				countCloudlets = vmAllocationCounts.get(vmId);
 			vmAllocationCounts.put(vmId,countCloudlets+1);
+
 			if(vmAllocationCounts.get(vmId)>cutoff)
 				vmStatesList.put(vmId, VirtualMachineState.BUSY);
 		}
@@ -49,7 +59,9 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 		{
 			int vmId = (Integer) e.getParameter(Constants.PARAM_VM_ID);
 			int countCloudlets = vmAllocationCounts.get(vmId);
+
 			vmAllocationCounts.put(vmId,countCloudlets-1);
+
 			if(vmAllocationCounts.get(vmId)<cutoff)
 				vmStatesList.put(vmId, VirtualMachineState.AVAILABLE);
 		}
@@ -79,7 +91,10 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 				return scoutBee;
 			else
 			{
+				// process the possible VMs for availability
 				SendEmployedBees();
+
+				// check using an OnLooker Bee for the final available VM
 				return SendOnlookerBees();
 			}
 		}
@@ -99,9 +114,8 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 	// Calculation to get the fitness value of VM
 	void calculation()
 	{
-		  int i;
 		  /*Employed Bee Phase*/
-		  for (i=0;i<vmStatesList.size();i++)
+		  for (int i=0; i<vmStatesList.size(); i++)
 		  {
 			   if(vmAllocationCounts.get(i)==null)
 				   fitness.put(i, 0);
@@ -113,7 +127,7 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 	int calculateFitness(int solValue)
 	{
 //		solValue = 1/(1000-solValue);
-		return solValue;	//// tasklength/VM capacity
+		return solValue;	// taskLength/(VM capacity)
 	}
 	
 	// Bees went in search & finding all the fitness
@@ -127,14 +141,14 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 	// By waggle Dance, we are getting best VM available
 	private int waggleDance() 
 	{
-		int Min, i=0;
-		Min = 0;
-		int global = fitness.get(0);
-		for(i=1;i<vmStatesList.size();i++)
+		int Min = 0;
+		int globalMinimumFitness = fitness.get(0);
+
+		for(int i=1; i<vmStatesList.size();i++)
 		{
-				if(fitness.get(i)< global)
+				if(fitness.get(i)< globalMinimumFitness)
 				{
-					global = fitness.get(i);
+					globalMinimumFitness = fitness.get(i);
 					Min = i;
 				}
 		}
