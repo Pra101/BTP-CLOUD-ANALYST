@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jars/simjava2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/cloudanalyst.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/gridsim.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jars/iText-2.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
