@@ -1,11 +1,17 @@
-# **A Performance Comparison of Load Balancing Algorithms on a Simulated Cloud**
+# **Load Balancing Optimization**
 
-The following load balancing algorithms are implemented:<br/>
-➢ Round Robin Algorithm<br/>
-➢ Weighted Round Robin Algorithm<br/>
-➢ Threshold Based Algorithm<br/>
-➢ Honey Bee Foraging Algorithm<br/>
-➢ Ant Colony Optimization<br/>
+The project aims to study various load balancing algorithms for a cloud environment, and further develop and test a hybrid algorithm using a simulated cloud environment on CloudSim.
+
+===
+## The following load balancing algorithms have been implemented and studied:
+- Round Robin Algorithm
+- Weighted Round Robin Algorithm
+- Threshold Based Algorithm
+- Honey Bee Foraging Algorithm
+- Ant Colony Optimization
+- Red Black Tree Optimization
+- Particle Swarm Optimization
+- Genetic Algorithm Optimization
 
 #TODO HYBRID
 
