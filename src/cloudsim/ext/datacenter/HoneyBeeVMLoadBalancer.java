@@ -6,15 +6,15 @@ import cloudsim.ext.event.CloudSimEvent;
 import cloudsim.ext.event.CloudSimEventListener;
 import cloudsim.ext.event.CloudSimEvents;
 
-public class honeyBee extends VmLoadBalancer implements CloudSimEventListener {
+public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEventListener {
 	private int cutoff = 1;
 	private int scoutBee = -1;
 	private Map<Integer, VirtualMachineState> vmStatesList;
-	Map<Integer, Integer> vmAllocationCounts = new HashMap<Integer, Integer> ();
-	Map<Integer, Integer> fitness = new HashMap<Integer, Integer> ();
+	Map<Integer, Integer> vmAllocationCounts = new HashMap<>();
+	Map<Integer, Integer> fitness = new HashMap<>();
 	
 	
-	public honeyBee(DatacenterController dcb){
+	public HoneyBeeVMLoadBalancer(DatacenterController dcb){
 		this.vmStatesList = dcb.getVmStatesList();
 		dcb.addCloudSimEventListener(this);
 	}
@@ -30,8 +30,10 @@ public class honeyBee extends VmLoadBalancer implements CloudSimEventListener {
 		return vmId;
 	}
 	
-	public void cloudSimEventFired(CloudSimEvent e) {
-		if (e.getId() == CloudSimEvents.EVENT_CLOUDLET_ALLOCATED_TO_VM){
+	public void cloudSimEventFired(CloudSimEvent e)
+	{
+		if (e.getId() == CloudSimEvents.EVENT_CLOUDLET_ALLOCATED_TO_VM)
+		{
 			int vmId = (Integer) e.getParameter(Constants.PARAM_VM_ID);
 			int countCloudlets;
 			if(vmAllocationCounts.get(vmId)==null)
@@ -41,7 +43,10 @@ public class honeyBee extends VmLoadBalancer implements CloudSimEventListener {
 			vmAllocationCounts.put(vmId,countCloudlets+1);
 			if(vmAllocationCounts.get(vmId)>cutoff)
 				vmStatesList.put(vmId, VirtualMachineState.BUSY);
-		} else if (e.getId() == CloudSimEvents.EVENT_VM_FINISHED_CLOUDLET){
+		}
+
+		else if (e.getId() == CloudSimEvents.EVENT_VM_FINISHED_CLOUDLET)
+		{
 			int vmId = (Integer) e.getParameter(Constants.PARAM_VM_ID);
 			int countCloudlets = vmAllocationCounts.get(vmId);
 			vmAllocationCounts.put(vmId,countCloudlets-1);

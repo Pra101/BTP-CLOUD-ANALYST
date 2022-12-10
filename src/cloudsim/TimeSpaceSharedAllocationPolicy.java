@@ -87,19 +87,14 @@ public class TimeSpaceSharedAllocationPolicy extends VMMAllocationPolicy {
 	public double[] getMIPSShare(int vmId, int userId) {
 			
 			double[] myShare = new double[pelist.size()];
-			for(int i=0;i<myShare.length;i++) myShare[i]=0.0;
-			
-			double capacity=0.0;
-			for (int i=0;i<pelist.size();i++){
-				capacity+=((PE)pelist.get(i)).getMIPSRating();
-			}
+
+		double capacity=0.0;
+		for (Object o : pelist) {
+			capacity += ((PE) o).getMIPSRating();
+		}
 			
 			//it receives the capacity of the allocated VMs and the capacity of the free PEs.
-			if(pesInUse>pelist.size()){
-				capacity/=pesInUse;
-			} else {
-				capacity/=pelist.size();
-			}
+		capacity /= Math.max(pesInUse, pelist.size());
 
 			int pes = peAllocationMap.get(userId+"-"+vmId);
 
