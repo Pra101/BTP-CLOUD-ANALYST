@@ -8,7 +8,6 @@ public class PSOVmLoadBalancer extends VmLoadBalancer {
     public int getNextAvailableVm() {
         return 0;
     }
-
     // TODO 1. round robin, 2. PSO, 3. RedBlack Tree
 }
 

@@ -91,5 +91,6 @@ public interface Constants {
 	final String LOAD_BALANCE_HONEY_COLONY = "Honey Bee Foraging loadbalancer";
 	final String LOAD_BALANCE_PSO = "PSO LoadBalancer";
 	final String LOAD_BALANCE_THRESHOLD = "Threshold based LB";
+	final String LOAD_BALANCE_HYBRID = "New Hybrid Load Balancer";
 	
 }

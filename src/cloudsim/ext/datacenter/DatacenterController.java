@@ -111,6 +111,9 @@ public class DatacenterController extends DatacenterBroker implements GeoLocatab
 		else if (loadBalancePolicy.equals(Constants.LOAD_BALANCE_HONEY_COLONY)) {
 			this.loadBalancer = new HoneyBeeVMLoadBalancer(this);
 		}
+		else if (loadBalancePolicy.equals(Constants.LOAD_BALANCE_HYBRID)) {
+			this.loadBalancer = new HoneyBeeVMLoadBalancer(this);
+		}
 		else if (loadBalancePolicy.equals(Constants.LOAD_BALANCE_PSO)) {
 			this.loadBalancer = new PSOVmLoadBalancer(this);
 		}
