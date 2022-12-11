@@ -1,14 +1,18 @@
 package cloudsim.ext.datacenter;
 
-import java.util.Random;
+import java.util.*;
 
 public class HybridVMLoadBalancer extends VmLoadBalancer{
 
     DatacenterController dcbLocal;
+    int virtualMachineCount = 0;
+    int index = 0;
 
+    boolean firstIteration = true;
     public HybridVMLoadBalancer(DatacenterController dcb) {
         super();
         dcbLocal = dcb;
+        virtualMachineCount = dcbLocal.vmlist.size();
     }
     // Number of particles in the swarm
     private static final int NUM_PARTICLES = 100;
@@ -17,41 +21,56 @@ public class HybridVMLoadBalancer extends VmLoadBalancer{
 
     @Override
     public int getNextAvailableVm() {
-        // Create the swarm
-        Particle[] swarm = new Particle[NUM_PARTICLES];
-        for (int i = 0; i < NUM_PARTICLES; i++) {
-            swarm[i] = new Particle();
-        }
 
-        Particle globalBest;
-        // Run the DPSO algorithm
-        for (int i = 0; i < MAX_ITERATIONS; i++) {
-            // Update the global best position
-            for (Particle p : swarm) {
-                if (p.getFitness() > p.getBestFitness()) {
-                    p.setBestPosition(p.getPosition());
+        if(firstIteration)
+        {
+            // Create the swarm
+            List<Particle> swarm = new ArrayList<>(NUM_PARTICLES);
+            for (int i = 0; i < NUM_PARTICLES; i++) {
+                swarm.set(i, new Particle());
+            }
+
+            Particle globalBest;
+            // Run the DPSO algorithm
+            for (int i = 0; i < MAX_ITERATIONS; i++) {
+                // Update the global best position
+                for (Particle p : swarm) {
+                    if (p.getFitness() > p.getBestFitness()) {
+                        p.setBestPosition(p.getPosition());
+                    }
+                }
+
+                // Update the global best position
+                globalBest = swarm.get(0);
+                for (Particle p : swarm) {
+                    if (p.getBestFitness() > globalBest.getBestFitness()) {
+                        globalBest = p;
+                    }
+                }
+
+                // Update the velocity and position of each particle
+                for (Particle p : swarm) {
+                    p.updateVelocity(globalBest);
+                    p.updatePosition();
                 }
             }
 
-            // Update the global best position
-            globalBest = swarm[0];
-            for (Particle p : swarm) {
-                if (p.getBestFitness() > globalBest.getBestFitness()) {
-                    globalBest = p;
-                }
-            }
-
-            // Update the velocity and position of each particle
-            for (Particle p : swarm) {
-                p.updateVelocity(globalBest);
-                p.updatePosition();
-            }
-
+            swarm.sort(new sortByBestPosition());
         }
-        System.out.println("Global best position: " + globalBest.getBestPosition());
-        return Math.ceil(globalBest.getBestPosition());
-        // Print the global best position
+
+            int ans = (index)%virtualMachineCount +1;
+            index = (index+1)%NUM_PARTICLES;
+            return ans;
     }
+
+    private static class sortByBestPosition implements Comparator<Particle>
+    {
+        public int compare(Particle p1, Particle p2)
+        {
+            return Double.compare(p1.getBestPosition()[0], p2.getBestPosition()[0]);
+        }
+    }
+        // Print the global best position
 
     private static class Particle {
         // Position of the particle
