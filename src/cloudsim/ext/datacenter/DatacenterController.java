@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Map;
 
 import cloudsim.DataCenter;
+// Imports algorithms from datacentre
+
 import cloudsim.DatacenterBroker;
 import cloudsim.DatacenterCharacteristics;
 import cloudsim.DatacenterTags;
@@ -109,7 +111,7 @@ public class DatacenterController extends DatacenterBroker implements GeoLocatab
 			this.loadBalancer = new AntColonyVmLoadBalancer(this);
 		}
 		else if (loadBalancePolicy.equals(Constants.LOAD_BALANCE_HONEY_COLONY)) {
-			this.loadBalancer = new HoneyBeeVMLoadBalancer(this);
+			this.loadBalancer = new HybridVMLoadBalancerNEW(this);
 		}
 		else if (loadBalancePolicy.equals(Constants.LOAD_BALANCE_HYBRID)) {
 			this.loadBalancer = new HoneyBeeVMLoadBalancer(this);
