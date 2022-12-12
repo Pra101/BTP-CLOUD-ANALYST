@@ -8,29 +8,10 @@ import cloudsim.ext.event.CloudSimEvent;
 import cloudsim.ext.event.CloudSimEventListener;
 import cloudsim.ext.event.CloudSimEvents;
 
-/**
- * This class implements {@link VmLoadBalancer} as a Throttled load balancer. Each VM is
- * allocated only one task at a time and can be allocated another task only when the current
- * task has completed. The ThrottledVmLoadBalancer does not implement any task queueing
- * functionality, but returns a valid VM id in the <code>getNextAvailableVm</code>
- * only if available. The calling {@link DatacenterController} should implement the task
- * queueing locally.
- *
- * The ThrottledVmLoadBalancer implements CloudSimEventListener to get notified of the VM's
- * being allocated and freed up by the {@link DatacenterController}
- *
- * @author Bhathiya Wickremasinghe
- *
- */
 public class HybridVMLoadBalancerNEW extends VmLoadBalancer implements CloudSimEventListener {
 
     private Map<Integer, VirtualMachineState> vmStatesList;
-
-    /**
-     * Constructor
-     *
-     * @param dcb The {@link DatacenterController} using the load balancer.
-     */
+    
     public HybridVMLoadBalancerNEW(DatacenterController dcb){
         this.vmStatesList = dcb.getVmStatesList();
         dcb.addCloudSimEventListener(this);
