@@ -1,4 +1,6 @@
 package cloudsim.ext.datacenter;
+import cloudsim.ext.datacenter.DatacenterController;
+
 import java.util.*;
 
 import cloudsim.ext.Constants;
@@ -34,6 +36,7 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 		// mark the VM as allocated
 		allocatedVm(vmId);
 		System.out.println("allocated "+vmId);
+		DatacenterController.allocatedTask();
 		return vmId;
 	}
 	

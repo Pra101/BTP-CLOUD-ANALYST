@@ -70,6 +70,7 @@ public class AntColonyVmLoadBalancer extends VmLoadBalancer {
 		// mark the VM as allocated
 		allocatedVm(vmId);
 		System.out.println("allocated "+vmId);
+		DatacenterController.allocatedTask();
 		return vmId;
 	}
 

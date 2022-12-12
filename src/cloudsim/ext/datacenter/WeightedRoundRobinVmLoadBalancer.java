@@ -26,6 +26,7 @@ public class WeightedRoundRobinVmLoadBalancer extends VmLoadBalancer implements 
 	public int getNextAvailableVm(){
 		int vm = weightedRoundRobin();
 		allocatedVm(vm);
+		DatacenterController.allocatedTask();
 		return vm;
 	}
 	

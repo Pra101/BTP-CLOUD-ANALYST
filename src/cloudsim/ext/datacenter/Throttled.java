@@ -34,7 +34,7 @@ public class Throttled extends VmLoadBalancer implements CloudSimEventListener {
         }
 
         allocatedVm(vmId);
-
+        DatacenterController.allocatedTask();
         return vmId;
 
     }

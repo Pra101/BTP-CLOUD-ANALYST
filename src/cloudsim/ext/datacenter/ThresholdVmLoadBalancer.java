@@ -75,6 +75,7 @@ public class ThresholdVmLoadBalancer extends VmLoadBalancer implements CloudSimE
 		}
 		allocatedVm(vmId);
 		System.out.println("allocated "+vmId);
+		DatacenterController.allocatedTask();
 		return vmId;
 	}
 

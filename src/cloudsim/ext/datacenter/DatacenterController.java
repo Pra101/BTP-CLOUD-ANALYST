@@ -330,6 +330,18 @@ public class DatacenterController extends DatacenterBroker implements GeoLocatab
 		}
 	}
 
+	public static void allocatedTask()
+	{
+		try
+		{
+			Thread.sleep(100);
+		}
+		catch(InterruptedException ex)
+		{
+			Thread.currentThread().interrupt();
+		}
+	}
+
 	private void submitNewCloudlet(InternetCloudlet cl) {
 		
 		hourlyArrival.addEvent(GridSim.clock(), cl.getRequestCount());
@@ -521,5 +533,15 @@ public class DatacenterController extends DatacenterBroker implements GeoLocatab
 		return allRequestsProcessed;
 	}
 	
-	
+	public void allocateTask()
+	{
+		try
+		{
+			Thread.sleep(100);
+		}
+		catch(InterruptedException ex)
+		{
+			Thread.currentThread().interrupt();
+		}
+	}
 }
