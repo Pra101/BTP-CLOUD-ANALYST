@@ -6,17 +6,17 @@
 
 Version: SimJava 2.0
 
-Simulation date:         December 11, 2022
-Simulation start time:   11:47:20 PM IST
-Simulation end time:     11:50:10 PM IST
+Simulation date:         December 12, 2022
+Simulation start time:   10:33:40 PM IST
+Simulation end time:     10:35:16 PM IST
 
 ############################################################
 #            Overall simulation run information            #
 ############################################################
 
-Total simulated time:    4.320000343074417E7
+Total simulated time:    4.320000342230048E7
 Total transient time:    0.0
-Total steady state time: 4.320000343074417E7
+Total steady state time: 4.320000342230048E7
 Transient condition:     None
 Termination condition:   4.32E7 units of elapsed simulated time
 Output analysis method:  None
@@ -29,107 +29,107 @@ Output analysis method:  None
 
 - Service time
 
-Sample mean:          0.6189890864006588
-Sample variance:      29.920352011263795
-Sample std deviation: 5.469949909392571
-Maximum:              2288.020732048899
-Minimum:              0.03271734528243542
+Sample mean:          0.4508389919486441
+Sample variance:      0.07963668148178901
+Sample std deviation: 0.282199719138395
+Maximum:              5.224923186004162
+Minimum:              0.029741913080215454
 
 - Overloading status : US_BOMB-Broker-0
 
-Sample mean:          0.36479587988144196
-Sample variance:      0.07673012183786992
-Sample std deviation: 0.2770020249707029
-Maximum:              1.9626818393007852
-Minimum:              0.03540701401652768
+Sample mean:          0.3029173899378824
+Sample variance:      0.06240828830812041
+Sample std deviation: 0.24981650927855112
+Maximum:              1.0976837158668786
+Minimum:              0.03304850962013006
 
 - Overloading status : US_BOMB-Broker-1
 
-Sample mean:          0.3679944499650355
-Sample variance:      0.07734048567498912
-Sample std deviation: 0.27810157438423305
-Maximum:              1.9597649034112692
-Minimum:              0.03575885854661465
+Sample mean:          0.30410460529367583
+Sample variance:      0.062049347799267615
+Sample std deviation: 0.24909706501536227
+Maximum:              1.07709302008152
+Minimum:              0.03288139309734106
 
 - Overloading status : US_BOMB-Broker-2
 
-Sample mean:          0.3709375840491054
-Sample variance:      0.07779685559089834
-Sample std deviation: 0.2789208769362708
-Maximum:              1.9136188067495823
-Minimum:              0.033866167068481445
+Sample mean:          0.307271528701054
+Sample variance:      0.06420139013099094
+Sample std deviation: 0.2533799323762459
+Maximum:              1.0768913980573416
+Minimum:              0.03255627863109112
 
 - Overloading status : US_BOMB-Broker-3
 
-Sample mean:          0.3683585232458371
-Sample variance:      0.07728832427024071
-Sample std deviation: 0.27800777735567167
-Maximum:              1.874835267663002
+Sample mean:          0.306328479528158
+Sample variance:      0.06422698682518008
+Sample std deviation: 0.25343043784277386
+Maximum:              1.1782032363116741
 Minimum:              0.0355814341455698
 
 - Overloading status : US_BOMB-Broker-4
 
-Sample mean:          0.4687385456761358
-Sample variance:      64.54139029020902
-Sample std deviation: 8.0337656357532
-Maximum:              636.0224923193455
-Minimum:              0.03271734528243542
+Sample mean:          0.3019995696735096
+Sample variance:      0.06177753022720479
+Sample std deviation: 0.24855086044350116
+Maximum:              1.0798023231327534
+Minimum:              0.030574116855859756
 
 - Overloading status : US_BOMB-Broker-5
 
-Sample mean:          0.39587965951518833
-Sample variance:      0.057964785126331894
-Sample std deviation: 0.24075876957305603
-Maximum:              1.8465713486075401
-Minimum:              0.03729655221104622
+Sample mean:          0.32340454405486874
+Sample variance:      0.03863130170339008
+Sample std deviation: 0.19654847163839784
+Maximum:              1.178721446543932
+Minimum:              0.03304851055145264
 
 - Overloading status : US_BOMB-Broker-6
 
-Sample mean:          0.39957787531319183
-Sample variance:      0.05782780136237763
-Sample std deviation: 0.2404741178638101
-Maximum:              1.8039136603474617
-Minimum:              0.033866167068481445
+Sample mean:          0.3248518744926128
+Sample variance:      0.03819548715467016
+Sample std deviation: 0.19543665765324109
+Maximum:              1.0753636807203293
+Minimum:              0.029741913080215454
 
 - Overloading status : US_BOMB-Broker-7
 
-Sample mean:          0.614781879771237
-Sample variance:      494.83312047834573
-Sample std deviation: 22.244844806793903
-Maximum:              2288.020732048899
-Minimum:              0.036500249058008194
+Sample mean:          0.3243770086355039
+Sample variance:      0.03959024332422675
+Sample std deviation: 0.19897297134090033
+Maximum:              1.0756364054977894
+Minimum:              0.03271734341979027
 
 - Overloading status : US_BOMB-Broker-8
 
-Sample mean:          0.40148991550691693
-Sample variance:      0.05919440176742924
-Sample std deviation: 0.24329899664287405
-Maximum:              2.1540872529149055
-Minimum:              0.03527672216296196
+Sample mean:          0.3266366651708146
+Sample variance:      0.04004001790471547
+Sample std deviation: 0.20010001975191175
+Maximum:              1.07709302008152
+Minimum:              0.031648196280002594
 
 - Overloading status : US_BOMB-Broker-9
 
-Sample mean:          0.5257319657811791
-Sample variance:      0.07003251040245766
-Sample std deviation: 0.2646365628601945
-Maximum:              2.6843592636287212
-Minimum:              0.034737929701805115
+Sample mean:          0.4308600979613243
+Sample variance:      0.03716130599594944
+Sample std deviation: 0.1927726795890679
+Maximum:              3.3262570053339005
+Minimum:              0.034120701253414154
 
 - Overloading status : US_BOMB-Broker-10
 
-Sample mean:          0.7944293262533638
-Sample variance:      0.4235528070266332
-Sample std deviation: 0.6508093476792057
-Maximum:              8.818939611315727
-Minimum:              0.1444231942296028
+Sample mean:          0.5590009424297715
+Sample variance:      0.08744973520212954
+Sample std deviation: 0.29571901393405453
+Maximum:              5.224923186004162
+Minimum:              0.1503395065665245
 
 - Overloading status : US_BOMB-Broker-11
 
-Sample mean:          0.8245775094737592
-Sample variance:      0.45931900680174453
-Sample std deviation: 0.677730777522863
-Maximum:              9.577769212424755
-Minimum:              0.05340015888214111
+Sample mean:          0.5792516964387546
+Sample variance:      0.09080738009694696
+Sample std deviation: 0.30134262907352977
+Maximum:              4.300708115100861
+Minimum:              0.049167074263095856
 
 - Overloading status : US_BOMB-Broker-12
 
@@ -231,107 +231,107 @@ Minimum:              0.0
 
 - Service time
 
-Sample mean:          0.6490922728604777
-Sample variance:      12.646343255182613
-Sample std deviation: 3.556169744990052
-Maximum:              431.7543847076595
-Minimum:              0.01803373545408249
+Sample mean:          0.5114300815769313
+Sample variance:      0.08012960521407882
+Sample std deviation: 0.28307173157007187
+Maximum:              1.0683398842811584
+Minimum:              0.018057813867926598
 
 - Overloading status : EURO_STAR-Broker-0
 
-Sample mean:          0.6084009051233755
-Sample variance:      0.10008156739875615
-Sample std deviation: 0.31635670910975816
-Maximum:              1.6016303738579154
-Minimum:              0.018777298275381327
+Sample mean:          0.5127539098159282
+Sample variance:      0.07417727457157819
+Sample std deviation: 0.27235505240692376
+Maximum:              0.9492393429391086
+Minimum:              0.018121115979738533
 
 - Overloading status : EURO_STAR-Broker-1
 
-Sample mean:          0.6028346404970202
-Sample variance:      0.10896580366102857
-Sample std deviation: 0.330099687459756
-Maximum:              2.1032459270209074
-Minimum:              0.01856744848191738
+Sample mean:          0.5050318687658273
+Sample variance:      0.08196320973527145
+Sample std deviation: 0.28629217546987107
+Maximum:              1.0602545626461506
+Minimum:              0.018814696930348873
 
 - Overloading status : EURO_STAR-Broker-2
 
-Sample mean:          0.622847602126699
-Sample variance:      0.09792038271030026
-Sample std deviation: 0.3129223269603821
-Maximum:              1.853405979461968
+Sample mean:          0.5129606678618512
+Sample variance:      0.07999897672029352
+Sample std deviation: 0.2828409035487857
+Maximum:              1.0583655638620257
 Minimum:              0.01837968733161688
 
 - Overloading status : EURO_STAR-Broker-3
 
-Sample mean:          0.61910829012815
-Sample variance:      0.10030295204528238
-Sample std deviation: 0.3167064130157177
-Maximum:              1.8610139321535826
-Minimum:              0.01803373545408249
+Sample mean:          0.5033657011264523
+Sample variance:      0.07984083331305548
+Sample std deviation: 0.2825612027739397
+Maximum:              1.0610892362892628
+Minimum:              0.018350299447774887
 
 - Overloading status : EURO_STAR-Broker-4
 
-Sample mean:          0.6185670668427744
-Sample variance:      0.10644283585618575
-Sample std deviation: 0.326255782870106
-Maximum:              1.7059714645147324
+Sample mean:          0.5046891128942431
+Sample variance:      0.0863439291566853
+Sample std deviation: 0.29384337521319975
+Maximum:              1.0620718281716108
 Minimum:              0.018057813867926598
 
 - Overloading status : EURO_STAR-Broker-5
 
-Sample mean:          0.9643162103566697
-Sample variance:      151.22365070645233
-Sample std deviation: 12.297302578470301
-Maximum:              431.7543847076595
-Minimum:              0.01856745034456253
+Sample mean:          0.5025700339115385
+Sample variance:      0.07911462492460737
+Sample std deviation: 0.28127322112957603
+Maximum:              0.994382843375206
+Minimum:              0.018379688262939453
 
 - Overloading status : EURO_STAR-Broker-6
 
-Sample mean:          0.6276545031900329
-Sample variance:      0.0975538010517279
-Sample std deviation: 0.312336038669456
-Maximum:              1.593390841037035
-Minimum:              0.018440041691064835
+Sample mean:          0.5286231858280337
+Sample variance:      0.07678071834098436
+Sample std deviation: 0.27709333868028
+Maximum:              1.0503743588924408
+Minimum:              0.01932903751730919
 
 - Overloading status : EURO_STAR-Broker-7
 
-Sample mean:          0.6335659480328082
-Sample variance:      0.10974042621348407
-Sample std deviation: 0.3312709256990176
-Maximum:              1.803854089230299
-Minimum:              0.028092816472053528
+Sample mean:          0.5174531866158687
+Sample variance:      0.07951327413838634
+Sample std deviation: 0.2819809818735766
+Maximum:              1.0599341094493866
+Minimum:              0.018994636833667755
 
 - Overloading status : EURO_STAR-Broker-8
 
-Sample mean:          0.6335117925054624
-Sample variance:      0.10675027555835134
-Sample std deviation: 0.3267266067499728
-Maximum:              1.9168295450508595
+Sample mean:          0.5113873087745219
+Sample variance:      0.07913134776520256
+Sample std deviation: 0.2813029465988626
+Maximum:              1.0596330761909485
 Minimum:              0.019055627286434174
 
 - Overloading status : EURO_STAR-Broker-9
 
-Sample mean:          0.6151519451710966
-Sample variance:      0.10189947522809054
-Sample std deviation: 0.31921697202387367
-Maximum:              1.6016163975000381
+Sample mean:          0.5204258135898675
+Sample variance:      0.08215190365486569
+Sample std deviation: 0.2866215338296578
+Maximum:              1.0590826123952866
 Minimum:              0.018814697861671448
 
 - Overloading status : EURO_STAR-Broker-10
 
-Sample mean:          0.6130222020829075
-Sample variance:      0.10750819710907261
-Sample std deviation: 0.32788442645095633
-Maximum:              2.0983932614326477
-Minimum:              0.01874062418937683
+Sample mean:          0.5072544914338303
+Sample variance:      0.08044354568631007
+Sample std deviation: 0.28362571407809634
+Maximum:              1.0683398842811584
+Minimum:              0.018551617860794067
 
 - Overloading status : EURO_STAR-Broker-11
 
-Sample mean:          0.6317454961428737
-Sample variance:      0.10164782979331245
-Sample std deviation: 0.3188225678858265
-Maximum:              1.5227065309882164
-Minimum:              0.018814697861671448
+Sample mean:          0.5100822172322381
+Sample variance:      0.08227770209871721
+Sample std deviation: 0.2868409003240598
+Maximum:              1.051926612854004
+Minimum:              0.018534719944000244
 
 - Overloading status : EURO_STAR-Broker-12
 
@@ -433,107 +433,107 @@ Minimum:              0.0
 
 - Service time
 
-Sample mean:          0.7503465322002523
-Sample variance:      0.1435774529392063
-Sample std deviation: 0.37891615555318603
-Maximum:              5.3001933842897415
-Minimum:              0.09330984205007553
+Sample mean:          0.5907669221775719
+Sample variance:      0.08177343395542482
+Sample std deviation: 0.2859605461517809
+Maximum:              1.3960719406604767
+Minimum:              0.08924340456724167
 
 - Overloading status : AFRICA-Broker-0
 
-Sample mean:          0.7552995749985641
-Sample variance:      0.14037787146530203
-Sample std deviation: 0.3746703503952535
-Maximum:              2.3308198573067784
+Sample mean:          0.5951800486209985
+Sample variance:      0.08154893550110805
+Sample std deviation: 0.28556774240293326
+Maximum:              1.2993410746566951
 Minimum:              0.09662805590778589
 
 - Overloading status : AFRICA-Broker-1
 
-Sample mean:          0.7651265362157175
-Sample variance:      0.1505467027208073
-Sample std deviation: 0.3880034828720063
-Maximum:              5.134320326149464
-Minimum:              0.09460421930998564
+Sample mean:          0.5984935140431686
+Sample variance:      0.0796325329455515
+Sample std deviation: 0.28219236868765873
+Maximum:              1.2836942840367556
+Minimum:              0.08924340456724167
 
 - Overloading status : AFRICA-Broker-2
 
-Sample mean:          0.7455461974224318
-Sample variance:      0.14715888202010732
-Sample std deviation: 0.3836129325506471
-Maximum:              2.2587366979569197
+Sample mean:          0.5775955572145358
+Sample variance:      0.08197954535019057
+Sample std deviation: 0.2863207036701862
+Maximum:              1.2606925573199987
 Minimum:              0.09959245007485151
 
 - Overloading status : AFRICA-Broker-3
 
-Sample mean:          0.7478182373354847
-Sample variance:      0.13951851913703647
-Sample std deviation: 0.3735217786649615
-Maximum:              2.2014547139406204
+Sample mean:          0.5888456511358543
+Sample variance:      0.08121388590241695
+Sample std deviation: 0.284980500916145
+Maximum:              1.3014547135680914
 Minimum:              0.09330984205007553
 
 - Overloading status : AFRICA-Broker-4
 
-Sample mean:          0.7499232614908985
-Sample variance:      0.13634277305327955
-Sample std deviation: 0.3692462228016416
-Maximum:              2.105718268081546
+Sample mean:          0.5970742328136581
+Sample variance:      0.07877333880750148
+Sample std deviation: 0.28066588465202086
+Maximum:              1.3811981193721294
 Minimum:              0.10418620891869068
 
 - Overloading status : AFRICA-Broker-5
 
-Sample mean:          0.7471616203320232
-Sample variance:      0.1387883679160879
-Sample std deviation: 0.37254310880230745
-Maximum:              2.335916604846716
+Sample mean:          0.5980076630533513
+Sample variance:      0.0826378537197074
+Sample std deviation: 0.28746800468870864
+Maximum:              1.2874930575489998
 Minimum:              0.09732573106884956
 
 - Overloading status : AFRICA-Broker-6
 
-Sample mean:          0.7546999730159099
-Sample variance:      0.155563073443399
-Sample std deviation: 0.3944148494205042
-Maximum:              5.3001933842897415
-Minimum:              0.10586896911263466
+Sample mean:          0.5915872266270583
+Sample variance:      0.08197080329089762
+Sample std deviation: 0.2863054370613622
+Maximum:              1.325447890907526
+Minimum:              0.1041746698319912
 
 - Overloading status : AFRICA-Broker-7
 
-Sample mean:          0.7368838212824407
-Sample variance:      0.14200642415479336
-Sample std deviation: 0.3768373975002924
-Maximum:              2.3408261239528656
+Sample mean:          0.5810823314663575
+Sample variance:      0.08230121166298944
+Sample std deviation: 0.2868818775436842
+Maximum:              1.3025456257164478
 Minimum:              0.10761644691228867
 
 - Overloading status : AFRICA-Broker-8
 
-Sample mean:          0.7490422077204063
-Sample variance:      0.13724667017811165
-Sample std deviation: 0.37046817701134827
-Maximum:              2.1349860951304436
+Sample mean:          0.6002217670254436
+Sample variance:      0.08179430084944543
+Sample std deviation: 0.28599702944164546
+Maximum:              1.2449846379458904
 Minimum:              0.10851563885807991
 
 - Overloading status : AFRICA-Broker-9
 
-Sample mean:          0.7436833635091178
-Sample variance:      0.1498639249066844
-Sample std deviation: 0.3871226225715625
-Maximum:              2.1576308459043503
+Sample mean:          0.5837371966945797
+Sample variance:      0.08256133862691051
+Sample std deviation: 0.28733488933109136
+Maximum:              1.2512728124856949
 Minimum:              0.10023991763591766
 
 - Overloading status : AFRICA-Broker-10
 
-Sample mean:          0.7599868586801758
-Sample variance:      0.14534989984582608
-Sample std deviation: 0.3812478194637001
-Maximum:              2.325688436627388
-Minimum:              0.09687203913927078
+Sample mean:          0.5922319333024549
+Sample variance:      0.08272149954078756
+Sample std deviation: 0.28761345507605784
+Maximum:              1.2874930575489998
+Minimum:              0.0958075225353241
 
 - Overloading status : AFRICA-Broker-11
 
-Sample mean:          0.7489115258772596
-Sample variance:      0.14049834412698828
-Sample std deviation: 0.37483108746072313
-Maximum:              2.3233031779527664
-Minimum:              0.09395172446966171
+Sample mean:          0.5852442670533126
+Sample variance:      0.08418642987390575
+Sample std deviation: 0.2901489787573028
+Maximum:              1.3960719406604767
+Minimum:              0.09389487653970718
 
 - Overloading status : AFRICA-Broker-12
 
@@ -635,106 +635,106 @@ Minimum:              0.0
 
 - Service time
 
-Sample mean:          1.719094995026897
-Sample variance:      1.5476492575864773
-Sample std deviation: 1.2440455207051218
-Maximum:              11.926278414204717
-Minimum:              0.04610550403594971
+Sample mean:          0.7588693032081232
+Sample variance:      0.14250428222949915
+Sample std deviation: 0.37749739367245855
+Maximum:              3.1916721239686012
+Minimum:              0.0407492071390152
 
 - Overloading status : ASIA101-Broker-0
 
-Sample mean:          0.6547127165210148
-Sample variance:      0.10542464876536466
-Sample std deviation: 0.32469162102734445
-Maximum:              1.8338182377628982
+Sample mean:          0.543070509829464
+Sample variance:      0.07951854373115853
+Sample std deviation: 0.2819903255985186
+Maximum:              1.0669091190211475
 Minimum:              0.04776228126138449
 
 - Overloading status : ASIA101-Broker-1
 
-Sample mean:          1.8588212926432166
-Sample variance:      1.5768913031282081
-Sample std deviation: 1.2557433269295952
-Maximum:              11.130165309645236
-Minimum:              0.1631360100582242
+Sample mean:          0.7789755010882385
+Sample variance:      0.1303236406487478
+Sample std deviation: 0.36100365738971096
+Maximum:              2.304894231259823
+Minimum:              0.1418187515810132
 
 - Overloading status : ASIA101-Broker-2
 
-Sample mean:          1.7893751831141516
-Sample variance:      1.2211826546814475
-Sample std deviation: 1.105071334657382
-Maximum:              7.150321137160063
+Sample mean:          0.7638745901475744
+Sample variance:      0.12800480736095587
+Sample std deviation: 0.35777759482806615
+Maximum:              2.2866976652294397
 Minimum:              0.15002697426825762
 
 - Overloading status : ASIA101-Broker-3
 
-Sample mean:          1.86712019864047
-Sample variance:      1.7516074746617616
-Sample std deviation: 1.323483084388222
-Maximum:              11.926278414204717
+Sample mean:          0.7933741366869071
+Sample variance:      0.1578153409013501
+Sample std deviation: 0.3972597901894302
+Maximum:              2.8355894926935434
 Minimum:              0.15019233711063862
 
 - Overloading status : ASIA101-Broker-4
 
-Sample mean:          1.7347983446536976
-Sample variance:      0.9578980576728053
-Sample std deviation: 0.9787226663732711
-Maximum:              5.984779225662351
-Minimum:              0.15688196942210197
+Sample mean:          0.7708215358803943
+Sample variance:      0.12383338010547498
+Sample std deviation: 0.35189967335232775
+Maximum:              2.032437901943922
+Minimum:              0.15019233524799347
 
 - Overloading status : ASIA101-Broker-5
 
-Sample mean:          1.944913964275412
-Sample variance:      1.9207586061714257
-Sample std deviation: 1.3859143574447252
-Maximum:              11.231248278170824
-Minimum:              0.15688196942210197
+Sample mean:          0.8156049293003039
+Sample variance:      0.16441199763706324
+Sample std deviation: 0.4054774933791803
+Maximum:              3.1916721239686012
+Minimum:              0.15123677998781204
 
 - Overloading status : ASIA101-Broker-6
 
-Sample mean:          1.9013012359933397
-Sample variance:      1.885130406061412
-Sample std deviation: 1.3730005120397486
-Maximum:              9.872763883322477
-Minimum:              0.16655684262514114
+Sample mean:          0.8040901694083359
+Sample variance:      0.1475659717123019
+Sample std deviation: 0.38414316564570283
+Maximum:              2.3643519952893257
+Minimum:              0.15019233524799347
 
 - Overloading status : ASIA101-Broker-7
 
-Sample mean:          0.5850171487381572
-Sample variance:      0.10324124048778718
-Sample std deviation: 0.32131174968834736
-Maximum:              1.5511240288615227
-Minimum:              0.046505313366651535
+Sample mean:          0.484297453960295
+Sample variance:      0.07921105670617565
+Sample std deviation: 0.28144458905115877
+Maximum:              0.9365392439067364
+Minimum:              0.0407492071390152
 
 - Overloading status : ASIA101-Broker-8
 
-Sample mean:          0.6366188410707708
-Sample variance:      0.0995543258870183
-Sample std deviation: 0.31552230648088625
-Maximum:              1.513245478272438
-Minimum:              0.06148051097989082
+Sample mean:          0.5273583119182049
+Sample variance:      0.0767012837902107
+Sample std deviation: 0.2769499662217179
+Maximum:              0.9365392439067364
+Minimum:              0.04707813635468483
 
 - Overloading status : ASIA101-Broker-9
 
-Sample mean:          0.6202164430081639
-Sample variance:      0.08612785169722628
-Sample std deviation: 0.2934754703501236
-Maximum:              1.2864250615239143
-Minimum:              0.04610550403594971
+Sample mean:          0.5104774049390427
+Sample variance:      0.07039624609582973
+Sample std deviation: 0.265322909104792
+Maximum:              0.9591643512248993
+Minimum:              0.05537554621696472
 
 - Overloading status : ASIA101-Broker-10
 
-Sample mean:          0.6319395645254559
-Sample variance:      0.10315653821434011
-Sample std deviation: 0.32117991564595083
-Maximum:              1.6454805508255959
+Sample mean:          0.5239121041723065
+Sample variance:      0.08259553024930386
+Sample std deviation: 0.287394381032935
+Maximum:              0.9392458572983742
 Minimum:              0.049523696303367615
 
 - Overloading status : ASIA101-Broker-11
 
-Sample mean:          0.6225703688097649
-Sample variance:      0.09877843917432666
-Sample std deviation: 0.3142903739765611
-Maximum:              1.515737198293209
+Sample mean:          0.5078670611845798
+Sample variance:      0.07435131926322545
+Sample std deviation: 0.27267438321783266
+Maximum:              0.9369641169905663
 Minimum:              0.051006071269512177
 
 - Overloading status : ASIA101-Broker-12
@@ -837,107 +837,107 @@ Minimum:              0.0
 
 - Service time
 
-Sample mean:          1.2011016975307947
-Sample variance:      2955.110196750006
-Sample std deviation: 54.36092527496203
-Maximum:              6557.260715439916
-Minimum:              0.018018586561083794
+Sample mean:          0.5196103954609671
+Sample variance:      0.08043528173709041
+Sample std deviation: 0.2836111452977305
+Maximum:              1.220509123057127
+Minimum:              0.017758846282958984
 
 - Overloading status : BRAZIL-Broker-0
 
-Sample mean:          0.6772145091981991
-Sample variance:      0.14405088285439432
-Sample std deviation: 0.37954035734608554
-Maximum:              2.2504558839136735
-Minimum:              0.018121115979738533
+Sample mean:          0.5134290292173237
+Sample variance:      0.08254430183956617
+Sample std deviation: 0.28730524158038984
+Maximum:              1.204087175661698
+Minimum:              0.01856744848191738
 
 - Overloading status : BRAZIL-Broker-1
 
-Sample mean:          0.6637934513766461
-Sample variance:      0.13714234753063925
-Sample std deviation: 0.3703273518532479
-Maximum:              2.1561235934495926
-Minimum:              0.01909876987338066
+Sample mean:          0.5036049027554691
+Sample variance:      0.08215926337957283
+Sample std deviation: 0.2866343722926
+Maximum:              1.201407060958445
+Minimum:              0.01856744848191738
 
 - Overloading status : BRAZIL-Broker-2
 
-Sample mean:          1.206818252828879
-Sample variance:      353.4989615962709
-Sample std deviation: 18.801568062166275
-Maximum:              654.0089969281107
+Sample mean:          0.5214610546439576
+Sample variance:      0.07952734060191101
+Sample std deviation: 0.2820059229908319
+Maximum:              1.21711266040802
 Minimum:              0.018740625120699406
 
 - Overloading status : BRAZIL-Broker-3
 
-Sample mean:          0.6645382468982431
-Sample variance:      0.1256256438264493
-Sample std deviation: 0.3544370802081087
-Maximum:              1.7917094193398952
-Minimum:              0.01889176294207573
+Sample mean:          0.5315190983546404
+Sample variance:      0.07945991007616905
+Sample std deviation: 0.28188634247896627
+Maximum:              1.218339890241623
+Minimum:              0.01803373545408249
 
 - Overloading status : BRAZIL-Broker-4
 
-Sample mean:          0.6734691168860811
-Sample variance:      0.13781260778070675
-Sample std deviation: 0.371231205289516
-Maximum:              1.9297135584056377
-Minimum:              0.018018586561083794
+Sample mean:          0.5247610752364594
+Sample variance:      0.08181594378144912
+Sample std deviation: 0.28603486462571154
+Maximum:              1.0590826123952866
+Minimum:              0.019234314560890198
 
 - Overloading status : BRAZIL-Broker-5
 
-Sample mean:          0.6703941551894187
-Sample variance:      0.1322680597052933
-Sample std deviation: 0.36368676042068576
-Maximum:              2.1429776065051556
-Minimum:              0.018379688262939453
+Sample mean:          0.525081714482284
+Sample variance:      0.07858803526609752
+Sample std deviation: 0.28033557616916466
+Maximum:              1.220509123057127
+Minimum:              0.01856745034456253
 
 - Overloading status : BRAZIL-Broker-6
 
-Sample mean:          1.1881041282333842
-Sample variance:      340.6738472672205
-Sample std deviation: 18.45735211960861
-Maximum:              641.5038146972656
-Minimum:              0.018814697861671448
+Sample mean:          0.5071895785093159
+Sample variance:      0.08131592963390258
+Sample std deviation: 0.2851594810520993
+Maximum:              1.0665856413543224
+Minimum:              0.018440041691064835
 
 - Overloading status : BRAZIL-Broker-7
 
-Sample mean:          0.677085558546213
-Sample variance:      0.1361315829010885
-Sample std deviation: 0.36896013727920324
-Maximum:              1.7021157145500183
+Sample mean:          0.5251350668737613
+Sample variance:      0.07925177162852368
+Sample std deviation: 0.28151691179842764
+Maximum:              1.0656055808067322
 Minimum:              0.018265124410390854
 
 - Overloading status : BRAZIL-Broker-8
 
-Sample mean:          0.6685730163052148
-Sample variance:      0.14388365950567814
-Sample std deviation: 0.3793199961848546
-Maximum:              2.37968473136425
+Sample mean:          0.5248602951980991
+Sample variance:      0.08044722949882196
+Sample std deviation: 0.2836322081478441
+Maximum:              1.2174986116588116
 Minimum:              0.0189720056951046
 
 - Overloading status : BRAZIL-Broker-9
 
-Sample mean:          6.020764675281887
-Sample variance:      34921.80561297107
-Sample std deviation: 186.8737691945316
-Maximum:              6557.260715439916
-Minimum:              0.01850643754005432
+Sample mean:          0.5265219733119011
+Sample variance:      0.07873283004742648
+Sample std deviation: 0.2805937099213496
+Maximum:              1.2048854902386665
+Minimum:              0.018747180700302124
 
 - Overloading status : BRAZIL-Broker-10
 
-Sample mean:          0.6804333227958699
-Sample variance:      0.1455997761427498
-Sample std deviation: 0.3815753872339643
-Maximum:              1.9021192714571953
-Minimum:              0.018210701644420624
+Sample mean:          0.5093072089513341
+Sample variance:      0.08063850839484255
+Sample std deviation: 0.2839692032507091
+Maximum:              1.0685179457068443
+Minimum:              0.017758846282958984
 
 - Overloading status : BRAZIL-Broker-11
 
-Sample mean:          0.6679490569515137
-Sample variance:      0.14093805869110992
-Sample std deviation: 0.37541717953645903
-Maximum:              2.100903406739235
-Minimum:              0.018534719944000244
+Sample mean:          0.5218426829924987
+Sample variance:      0.08072847663123639
+Sample std deviation: 0.2841275710508158
+Maximum:              1.2047653570771217
+Minimum:              0.017971061170101166
 
 - Overloading status : BRAZIL-Broker-12
 
@@ -1039,107 +1039,107 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          51.67593232989491
-Sample variance:      14.635018758826664
-Sample std deviation: 3.8255743044445842
-Maximum:              65.81222961097956
-Minimum:              39.367604833096266
+Sample mean:          50.72753913940857
+Sample variance:      12.397635617175506
+Sample std deviation: 3.5210276365253805
+Maximum:              64.02244451642036
+Minimum:              38.769925594329834
 
 - Hourly Response Time-0
 
-Sample mean:          50.04365736017394
-Sample variance:      10.846052965720741
-Sample std deviation: 3.293334627049116
-Maximum:              58.04887573211454
+Sample mean:          49.9509189289463
+Sample variance:      10.84349579894223
+Sample std deviation: 3.2929463704928796
+Maximum:              57.448875732021406
 Minimum:              41.97034658072516
 
 - Hourly Response Time-1
 
-Sample mean:          51.78360397871302
-Sample variance:      15.643344988754178
-Sample std deviation: 3.95516687242829
-Maximum:              64.17244451586157
-Minimum:              41.06907638069242
+Sample mean:          50.751567238023796
+Sample variance:      12.95793778213799
+Sample std deviation: 3.599713569457713
+Maximum:              64.02244451642036
+Minimum:              40.81652836780995
 
 - Hourly Response Time-2
 
-Sample mean:          51.91376002273993
-Sample variance:      13.765299283258893
-Sample std deviation: 3.7101616249509797
-Maximum:              63.36582959443331
-Minimum:              40.496597826480865
+Sample mean:          50.9009936643481
+Sample variance:      11.876750850320432
+Sample std deviation: 3.4462662187243214
+Maximum:              61.79308013152331
+Minimum:              40.34659782610834
 
 - Hourly Response Time-3
 
-Sample mean:          51.774770072045904
-Sample variance:      15.413581776181953
-Sample std deviation: 3.926013471217585
-Maximum:              65.6438033953309
-Minimum:              39.367604833096266
+Sample mean:          50.80788702035825
+Sample variance:      13.48675141062231
+Sample std deviation: 3.672431266970467
+Maximum:              62.01740336790681
+Minimum:              38.769925594329834
 
 - Hourly Response Time-4
 
-Sample mean:          51.63709167561261
-Sample variance:      13.387940553522421
-Sample std deviation: 3.6589534779117403
-Maximum:              60.95719861239195
-Minimum:              40.22219735570252
+Sample mean:          50.705645206992784
+Sample variance:      11.877957825977196
+Sample std deviation: 3.4464413278013595
+Maximum:              60.78614740818739
+Minimum:              40.12928833812475
 
 - Hourly Response Time-5
 
-Sample mean:          51.97122865747807
-Sample variance:      14.624490766907867
-Sample std deviation: 3.8241980553977415
-Maximum:              64.4272724762559
-Minimum:              40.877644173800945
+Sample mean:          50.800573845729815
+Sample variance:      11.862736764820799
+Sample std deviation: 3.444232391233321
+Maximum:              61.3746924623847
+Minimum:              40.72764417156577
 
 - Hourly Response Time-6
 
-Sample mean:          51.921039147874914
-Sample variance:      15.318018969725927
-Sample std deviation: 3.913824085178833
-Maximum:              65.81222961097956
-Minimum:              39.5770716406405
+Sample mean:          50.74850116694266
+Sample variance:      12.347907361428154
+Sample std deviation: 3.513958929957514
+Maximum:              61.81087160483003
+Minimum:              39.25957717373967
 
 - Hourly Response Time-7
 
-Sample mean:          50.33435988602539
-Sample variance:      13.68941909688464
-Sample std deviation: 3.6999214987462423
-Maximum:              59.54683367908001
-Minimum:              40.84507246688008
+Sample mean:          50.25250156675776
+Sample variance:      13.527181510188486
+Sample std deviation: 3.6779316891683136
+Maximum:              59.380065865814686
+Minimum:              40.69507246464491
 
 - Hourly Response Time-8
 
-Sample mean:          50.44944901044506
-Sample variance:      10.553140036146818
-Sample std deviation: 3.2485596864067032
-Maximum:              58.59712107852101
-Minimum:              43.10078074410558
+Sample mean:          50.34034626387261
+Sample variance:      10.751341281206106
+Sample std deviation: 3.2789237992375035
+Maximum:              58.44712107628584
+Minimum:              42.9507807418704
 
 - Hourly Response Time-9
 
-Sample mean:          50.0725491711334
-Sample variance:      12.895209872965893
-Sample std deviation: 3.5909900964728227
-Maximum:              59.12166303396225
+Sample mean:          49.899281041313934
+Sample variance:      12.849570988445414
+Sample std deviation: 3.584629825860045
+Maximum:              58.971663035452366
 Minimum:              41.16038242727518
 
 - Hourly Response Time-10
 
-Sample mean:          50.468382836085
-Sample variance:      12.688085388517482
-Sample std deviation: 3.5620338836846406
-Maximum:              59.52268923819065
+Sample mean:          50.36963817423625
+Sample variance:      12.809187581305867
+Sample std deviation: 3.5789925371961684
+Maximum:              59.417689234018326
 Minimum:              43.18963932991028
 
 - Hourly Response Time-11
 
-Sample mean:          50.74909041047096
-Sample variance:      12.369261587418354
-Sample std deviation: 3.5169961028437826
-Maximum:              62.61815216392279
-Minimum:              39.45343766361475
+Sample mean:          50.61992285102606
+Sample variance:      12.383496218778962
+Sample std deviation: 3.5190192126186184
+Maximum:              62.58020707219839
+Minimum:              39.36343766748905
 
 - Hourly Response Time-12
 
@@ -1241,107 +1241,107 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          51.648646939790396
-Sample variance:      14.62617721357345
-Sample std deviation: 3.824418545814965
-Maximum:              65.63446714915335
+Sample mean:          50.7277952856503
+Sample variance:      12.424526370145696
+Sample std deviation: 3.524844162533387
+Maximum:              63.136827578768134
 Minimum:              38.70943060517311
 
 - Hourly Response Time-0
 
-Sample mean:          50.808816169105306
-Sample variance:      11.547438381054329
-Sample std deviation: 3.3981522009842835
+Sample mean:          50.69398392696839
+Sample variance:      11.52630511850629
+Sample std deviation: 3.3950412543158133
 Maximum:              62.92635884741321
 Minimum:              42.1944959834218
 
 - Hourly Response Time-1
 
-Sample mean:          51.841647724314
-Sample variance:      15.542286097950585
-Sample std deviation: 3.9423706190502417
+Sample mean:          50.789163427168965
+Sample variance:      13.263812755165667
+Sample std deviation: 3.6419517782592434
 Maximum:              63.10660980362445
 Minimum:              38.81192168965936
 
 - Hourly Response Time-2
 
-Sample mean:          51.72135756520549
-Sample variance:      13.83536289559268
-Sample std deviation: 3.7195917646420127
-Maximum:              62.4479753151536
-Minimum:              40.693654265254736
+Sample mean:          50.75040748042288
+Sample variance:      11.933372115529775
+Sample std deviation: 3.4544713221460928
+Maximum:              60.45913659688085
+Minimum:              40.54365426488221
 
 - Hourly Response Time-3
 
-Sample mean:          52.01857174722259
-Sample variance:      14.316671392748304
-Sample std deviation: 3.7837377542250867
-Maximum:              65.63446714915335
-Minimum:              39.89214319176972
+Sample mean:          50.903363273770886
+Sample variance:      11.660391462399252
+Sample std deviation: 3.4147315359189294
+Maximum:              63.136827578768134
+Minimum:              39.74214319139719
 
 - Hourly Response Time-4
 
-Sample mean:          51.62573840678728
-Sample variance:      13.39666384879428
-Sample std deviation: 3.6601453316493155
-Maximum:              62.6121985539794
+Sample mean:          50.67152687078132
+Sample variance:      12.085927777575176
+Sample std deviation: 3.4764820979799644
+Maximum:              61.711680985987186
 Minimum:              39.55851290002465
 
 - Hourly Response Time-5
 
-Sample mean:          51.84343967057071
-Sample variance:      15.386520363776484
-Sample std deviation: 3.9225655333947556
-Maximum:              65.1523524262011
+Sample mean:          50.806075513640394
+Sample variance:      12.725350129604491
+Sample std deviation: 3.567260872098436
+Maximum:              62.97205464169383
 Minimum:              38.70943060517311
 
 - Hourly Response Time-6
 
-Sample mean:          51.734170966179576
-Sample variance:      15.623360982715
-Sample std deviation: 3.9526397486635436
-Maximum:              62.17745737358928
-Minimum:              39.932428766041994
+Sample mean:          50.780327123144914
+Sample variance:      12.859662396106053
+Sample std deviation: 3.586037143715337
+Maximum:              61.66564626246691
+Minimum:              39.625641252845526
 
 - Hourly Response Time-7
 
-Sample mean:          50.65822107862708
-Sample variance:      12.530143177883916
-Sample std deviation: 3.539794228183881
-Maximum:              59.84678766131401
-Minimum:              38.8652750402689
+Sample mean:          50.52199260906336
+Sample variance:      12.446001697512111
+Sample std deviation: 3.527889127723845
+Maximum:              59.696787659078836
+Minimum:              38.715275038033724
 
 - Hourly Response Time-8
 
-Sample mean:          49.65277236638398
-Sample variance:      13.883252656936142
-Sample std deviation: 3.7260237059009893
-Maximum:              62.347670305520296
-Minimum:              40.2094509229064
+Sample mean:          49.52284427423929
+Sample variance:      13.736504664585178
+Sample std deviation: 3.706279086170546
+Maximum:              62.19767030328512
+Minimum:              40.13445092365146
 
 - Hourly Response Time-9
 
-Sample mean:          50.06405822719479
-Sample variance:      11.809360729946397
-Sample std deviation: 3.436475044278133
-Maximum:              60.53986427932978
-Minimum:              42.344475634396076
+Sample mean:          49.92057312886263
+Sample variance:      11.275158740972579
+Sample std deviation: 3.3578503154507318
+Maximum:              59.93986427783966
+Minimum:              42.19447563588619
 
 - Hourly Response Time-10
 
-Sample mean:          50.144490376114845
-Sample variance:      10.69322899039731
-Sample std deviation: 3.2700503039551716
-Maximum:              58.351132057607174
-Minimum:              41.70933950692415
+Sample mean:          50.00446201526389
+Sample variance:      10.771890387538667
+Sample std deviation: 3.2820558172491014
+Maximum:              58.20113205909729
+Minimum:              41.694339506328106
 
 - Hourly Response Time-11
 
-Sample mean:          51.01553494224532
-Sample variance:      12.483061052974431
-Sample std deviation: 3.533137564966079
-Maximum:              61.60621891915798
-Minimum:              42.09803692251444
+Sample mean:          50.848742868906506
+Sample variance:      12.865420025850685
+Sample std deviation: 3.586839838332719
+Maximum:              61.4562189206481
+Minimum:              41.948036924004555
 
 - Hourly Response Time-12
 
@@ -1443,107 +1443,107 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          50.40723639280275
-Sample variance:      12.321039470794567
-Sample std deviation: 3.510133825197348
-Maximum:              64.94453455135226
-Minimum:              36.17803960852325
+Sample mean:          50.28127248187533
+Sample variance:      12.35842576008721
+Sample std deviation: 3.5154552706708144
+Maximum:              64.34453454986215
+Minimum:              36.02803960815072
 
 - Hourly Response Time-0
 
-Sample mean:          50.666079891212135
-Sample variance:      11.385044769160029
-Sample std deviation: 3.3741731978604816
-Maximum:              60.708721531859226
+Sample mean:          50.49994227354361
+Sample variance:      10.881175332413275
+Sample std deviation: 3.2986626581712284
+Maximum:              58.52363003278151
 Minimum:              42.529730297625065
 
 - Hourly Response Time-1
 
-Sample mean:          50.60071065073944
-Sample variance:      11.185443688586432
-Sample std deviation: 3.344464634076197
+Sample mean:          50.50571843572824
+Sample variance:      11.16329836769534
+Sample std deviation: 3.341152251498776
 Maximum:              59.77930108178407
-Minimum:              42.830361537635326
+Minimum:              42.56036153808236
 
 - Hourly Response Time-2
 
-Sample mean:          50.420894501852544
-Sample variance:      11.929290963675731
-Sample std deviation: 3.4538805659251928
-Maximum:              60.033017659559846
-Minimum:              36.17803960852325
+Sample mean:          50.21444905072061
+Sample variance:      11.841756748824034
+Sample std deviation: 3.4411853697271284
+Maximum:              60.00301765836775
+Minimum:              36.02803960815072
 
 - Hourly Response Time-3
 
-Sample mean:          50.57358496022122
-Sample variance:      15.017902499215982
-Sample std deviation: 3.875293859724186
-Maximum:              61.6981197912246
-Minimum:              43.25330361351371
+Sample mean:          50.56229508899409
+Sample variance:      15.79401160840886
+Sample std deviation: 3.9741680397800065
+Maximum:              62.11297222785652
+Minimum:              43.10330361314118
 
 - Hourly Response Time-4
 
-Sample mean:          50.425072696519045
-Sample variance:      10.125871429754444
-Sample std deviation: 3.1821174443685205
-Maximum:              58.836943782866
-Minimum:              43.673194866627455
+Sample mean:          50.304843027065964
+Sample variance:      10.04437554965509
+Sample std deviation: 3.16928628395339
+Maximum:              58.80694378167391
+Minimum:              43.523194866254926
 
 - Hourly Response Time-5
 
-Sample mean:          50.32694196859675
-Sample variance:      12.972614172536142
-Sample std deviation: 3.6017515423105104
-Maximum:              64.94453455135226
+Sample mean:          50.21927438022629
+Sample variance:      13.229494886140206
+Sample std deviation: 3.637237260083566
+Maximum:              64.34453454986215
 Minimum:              41.10411251708865
 
 - Hourly Response Time-6
 
-Sample mean:          50.02649608668626
-Sample variance:      13.083118607942708
-Sample std deviation: 3.617059386842122
+Sample mean:          49.84746070870345
+Sample variance:      13.180939468231733
+Sample std deviation: 3.6305563579473232
 Maximum:              59.59470850601792
 Minimum:              41.20806484296918
 
 - Hourly Response Time-7
 
-Sample mean:          50.14509283064084
-Sample variance:      11.313898076923394
-Sample std deviation: 3.3636138418259898
-Maximum:              59.511780235916376
+Sample mean:          49.997852226870286
+Sample variance:      11.29573964381703
+Sample std deviation: 3.3609135132902526
+Maximum:              59.3617802336812
 Minimum:              38.592681135982275
 
 - Hourly Response Time-8
 
-Sample mean:          50.61845131115667
-Sample variance:      12.933566227026152
-Sample std deviation: 3.59632676866635
-Maximum:              59.10218830406666
+Sample mean:          50.46875604008292
+Sample variance:      12.651118578137053
+Sample std deviation: 3.5568410954296303
+Maximum:              58.79775334894657
 Minimum:              41.559228386729956
 
 - Hourly Response Time-9
 
-Sample mean:          50.19544630756395
-Sample variance:      11.991628639272193
-Sample std deviation: 3.4628931024899097
-Maximum:              58.29640257358551
-Minimum:              38.786957904696465
+Sample mean:          50.01011231161343
+Sample variance:      12.236488067366304
+Sample std deviation: 3.4980691913348863
+Maximum:              58.3264025747776
+Minimum:              38.63695790618658
 
 - Hourly Response Time-10
 
-Sample mean:          50.27258111536503
-Sample variance:      12.819118737491712
-Sample std deviation: 3.5803796918052857
+Sample mean:          50.31121169770586
+Sample variance:      12.805086125085332
+Sample std deviation: 3.578419500992768
 Maximum:              61.7995230704546
-Minimum:              40.26089911162853
+Minimum:              40.11089911311865
 
 - Hourly Response Time-11
 
-Sample mean:          50.630358862514434
-Sample variance:      13.447566809615779
-Sample std deviation: 3.667092419017522
+Sample mean:          50.45388252237761
+Sample variance:      13.43869743350898
+Sample std deviation: 3.6658828995903536
 Maximum:              60.0794131308794
-Minimum:              41.89873042702675
+Minimum:              41.29873042553663
 
 - Hourly Response Time-12
 
@@ -1645,107 +1645,107 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          50.421397306774765
-Sample variance:      12.690473363440974
-Sample std deviation: 3.5623690661469896
-Maximum:              64.73928130604327
-Minimum:              37.97210408747196
+Sample mean:          50.26280026852394
+Sample variance:      12.570344953479692
+Sample std deviation: 3.5454682276787777
+Maximum:              64.58928130567074
+Minimum:              37.82210408523679
 
 - Hourly Response Time-0
 
-Sample mean:          50.37468875313328
-Sample variance:      13.157855656497187
-Sample std deviation: 3.6273758636922624
+Sample mean:          50.22416474326148
+Sample variance:      13.085796767615205
+Sample std deviation: 3.6174295801874576
 Maximum:              62.86589563218877
 Minimum:              38.81475550495088
 
 - Hourly Response Time-1
 
-Sample mean:          50.42889875673182
-Sample variance:      12.433675538289645
-Sample std deviation: 3.5261417354226765
-Maximum:              61.73874081671238
-Minimum:              39.325587377883494
+Sample mean:          50.27946989888111
+Sample variance:      12.460684364282468
+Sample std deviation: 3.5299694565650945
+Maximum:              61.58874081727117
+Minimum:              39.26558737736195
 
 - Hourly Response Time-2
 
-Sample mean:          50.44772633511513
-Sample variance:      12.726318280697786
-Sample std deviation: 3.5673965690259033
-Maximum:              61.641057995148
+Sample mean:          50.28047683687821
+Sample variance:      12.628100471660913
+Sample std deviation: 3.5536038709542335
+Maximum:              61.04105799552053
 Minimum:              39.298597333952785
 
 - Hourly Response Time-3
 
-Sample mean:          50.616088248731906
-Sample variance:      12.722544159446526
-Sample std deviation: 3.5668675556356906
-Maximum:              64.73928130604327
-Minimum:              40.053350295871496
+Sample mean:          50.438743621113936
+Sample variance:      12.367848480510746
+Sample std deviation: 3.5167952002513236
+Maximum:              64.58928130567074
+Minimum:              39.710618833079934
 
 - Hourly Response Time-4
 
-Sample mean:          50.33889508087316
-Sample variance:      12.472764659420774
-Sample std deviation: 3.5316801468169188
+Sample mean:          50.19366905445324
+Sample variance:      12.396871454874054
+Sample std deviation: 3.5209191207515764
 Maximum:              62.07173194549978
 Minimum:              40.09768912382424
 
 - Hourly Response Time-5
 
-Sample mean:          50.38619529994199
-Sample variance:      12.916091037279575
-Sample std deviation: 3.5938963587281667
-Maximum:              63.25798927620053
-Minimum:              41.054690565913916
+Sample mean:          50.25001923103657
+Sample variance:      12.920010095198265
+Sample std deviation: 3.594441555401654
+Maximum:              63.122989278286695
+Minimum:              40.979690566658974
 
 - Hourly Response Time-6
 
-Sample mean:          50.39131646241298
-Sample variance:      12.154270504960941
-Sample std deviation: 3.486297535346193
-Maximum:              60.96452919766307
-Minimum:              37.97210408747196
+Sample mean:          50.222436937431645
+Sample variance:      12.05058979262071
+Sample std deviation: 3.471395942934299
+Maximum:              60.814529195427895
+Minimum:              37.82210408523679
 
 - Hourly Response Time-7
 
-Sample mean:          50.42248889233061
-Sample variance:      13.07148161314126
-Sample std deviation: 3.6154504025281913
+Sample mean:          50.284489356212845
+Sample variance:      13.046616432789726
+Sample std deviation: 3.612010026673476
 Maximum:              62.75934102758765
 Minimum:              38.61872313171625
 
 - Hourly Response Time-8
 
-Sample mean:          50.40890913326904
-Sample variance:      12.870536053625422
-Sample std deviation: 3.587552933912672
+Sample mean:          50.25199986339592
+Sample variance:      12.754054761650247
+Sample std deviation: 3.571281949335595
 Maximum:              61.5555212572217
-Minimum:              39.71538936346769
+Minimum:              39.27553656697273
 
 - Hourly Response Time-9
 
-Sample mean:          50.42287905465793
-Sample variance:      12.909012498764326
-Sample std deviation: 3.592911423729275
-Maximum:              63.56294073164463
-Minimum:              38.750520929694176
+Sample mean:          50.247383141273296
+Sample variance:      12.404962082543292
+Sample std deviation: 3.5220678702352246
+Maximum:              61.0312440097332
+Minimum:              38.60052093118429
 
 - Hourly Response Time-10
 
-Sample mean:          50.52563943747633
-Sample variance:      11.941193524144913
-Sample std deviation: 3.455603206987879
-Maximum:              61.32340494543314
-Minimum:              39.93550654500723
+Sample mean:          50.35390564295175
+Sample variance:      11.91843247571003
+Sample std deviation: 3.4523082822526194
+Maximum:              61.10667312890291
+Minimum:              39.785506546497345
 
 - Hourly Response Time-11
 
-Sample mean:          50.294531384995885
-Sample variance:      12.961593886427986
-Sample std deviation: 3.60022136630902
-Maximum:              62.713715098798275
-Minimum:              38.18744129687548
+Sample mean:          50.1286398700218
+Sample variance:      12.871958025493626
+Sample std deviation: 3.5877511097473898
+Maximum:              62.5937150940299
+Minimum:              38.03744129836559
 
 - Hourly Response Time-12
 
@@ -1847,107 +1847,107 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          50.788640907443586
-Sample variance:      2951.808044100558
-Sample std deviation: 54.33054430153041
-Maximum:              6604.53285010159
-Minimum:              36.33046496799216
+Sample mean:          50.156466917263664
+Sample variance:      12.519886823522512
+Sample std deviation: 3.5383452097728556
+Maximum:              66.43280639499426
+Minimum:              36.18046496808529
 
 - Hourly Response Time-0
 
-Sample mean:          50.13399551092809
-Sample variance:      12.967836510166766
-Sample std deviation: 3.6010882397084867
-Maximum:              61.543548931367695
+Sample mean:          50.01201272007079
+Sample variance:      12.917471814393018
+Sample std deviation: 3.5940884538910582
+Maximum:              60.94354893127456
 Minimum:              38.43601380859036
 
 - Hourly Response Time-1
 
-Sample mean:          50.282504230260784
-Sample variance:      12.120441919406007
-Sample std deviation: 3.481442505543644
+Sample mean:          50.151022754725716
+Sample variance:      12.191550073926615
+Sample std deviation: 3.491640026395421
 Maximum:              62.93860064446926
-Minimum:              36.33046496799216
+Minimum:              36.18046496808529
 
 - Hourly Response Time-2
 
-Sample mean:          50.345840620113556
-Sample variance:      12.972604843860152
-Sample std deviation: 3.601750247290913
-Maximum:              62.831804890185595
-Minimum:              37.794104028493166
+Sample mean:          50.261532941217
+Sample variance:      12.953025059722819
+Sample std deviation: 3.599031127918015
+Maximum:              62.68180489074439
+Minimum:              37.194104028865695
 
 - Hourly Response Time-3
 
-Sample mean:          50.35330520191957
-Sample variance:      11.824874697263786
-Sample std deviation: 3.4387315535330445
-Maximum:              62.02507148683071
-Minimum:              40.07671472802758
+Sample mean:          50.22828863753362
+Sample variance:      11.749261979557144
+Sample std deviation: 3.4277196471644444
+Maximum:              61.845071487128735
+Minimum:              39.92671472765505
 
 - Hourly Response Time-4
 
-Sample mean:          50.281231136602756
-Sample variance:      13.042491013290453
-Sample std deviation: 3.611438911748398
-Maximum:              63.097153559327126
-Minimum:              40.093376057222486
+Sample mean:          50.14082875935943
+Sample variance:      13.023469627001068
+Sample std deviation: 3.608804459513021
+Maximum:              63.06715356186032
+Minimum:              39.94337605684996
 
 - Hourly Response Time-5
 
-Sample mean:          50.5538704427582
-Sample variance:      162.0986134321666
-Sample std deviation: 12.731795373479994
-Maximum:              480.2759883515537
+Sample mean:          50.07104566478455
+Sample variance:      12.642746542261953
+Sample std deviation: 3.555664008629324
+Maximum:              61.18603765964508
 Minimum:              39.93184643611312
 
 - Hourly Response Time-6
 
-Sample mean:          50.77789318897944
-Sample variance:      350.0440595857818
-Sample std deviation: 18.70946443877488
-Maximum:              696.5330088101327
-Minimum:              40.247083742171526
+Sample mean:          50.17443432556217
+Sample variance:      12.219067384331023
+Sample std deviation: 3.4955782617946096
+Maximum:              61.933890014886856
+Minimum:              40.18708373978734
 
 - Hourly Response Time-7
 
-Sample mean:          50.09265931536303
-Sample variance:      12.714740429573224
-Sample std deviation: 3.5657734686282616
+Sample mean:          49.98900342427762
+Sample variance:      12.8041789018759
+Sample std deviation: 3.5782927356318823
 Maximum:              61.33262922987342
 Minimum:              38.43804243952036
 
 - Hourly Response Time-8
 
-Sample mean:          50.280905765875666
-Sample variance:      12.586474602593043
-Sample std deviation: 3.547742183782954
-Maximum:              64.0823151357472
-Minimum:              38.57749559357762
+Sample mean:          50.16664439815033
+Sample variance:      12.45721917353402
+Sample std deviation: 3.5294785979708134
+Maximum:              63.90231513604522
+Minimum:              39.18011160939932
 
 - Hourly Response Time-9
 
-Sample mean:          55.53933328123003
-Sample variance:      34544.35521370212
-Sample std deviation: 185.86111807933932
-Maximum:              6604.53285010159
-Minimum:              40.59104822576046
+Sample mean:          50.1696927170913
+Sample variance:      12.09123301504544
+Sample std deviation: 3.477245032356138
+Maximum:              63.67785417288542
+Minimum:              40.441048227250576
 
 - Hourly Response Time-10
 
-Sample mean:          50.40178551695557
-Sample variance:      12.551142880440182
-Sample std deviation: 3.5427592185244796
-Maximum:              62.95226598531008
+Sample mean:          50.263475882205704
+Sample variance:      12.600088617201834
+Sample std deviation: 3.549660352372017
+Maximum:              62.68226598203182
 Minimum:              39.907224737107754
 
 - Hourly Response Time-11
 
-Sample mean:          50.382828540189195
-Sample variance:      12.768059832389204
-Sample std deviation: 3.5732422017530805
+Sample mean:          50.251577265080925
+Sample variance:      12.601791226563346
+Sample std deviation: 3.549900171351773
 Maximum:              66.43280639499426
-Minimum:              39.55916152149439
+Minimum:              39.43916151672602
 
 - Hourly Response Time-12
 
@@ -2049,107 +2049,107 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          50.28423609772325
-Sample variance:      41.43882501673953
-Sample std deviation: 6.437299512741312
-Maximum:              704.0128486603498
-Minimum:              36.55505983531475
+Sample mean:          50.11475940583574
+Sample variance:      12.540532589804506
+Sample std deviation: 3.541261440476332
+Maximum:              64.31591324135661
+Minimum:              36.40505983680487
 
 - Hourly Response Time-0
 
-Sample mean:          50.15552567592975
-Sample variance:      13.702541428048152
-Sample std deviation: 3.7016943996024514
-Maximum:              63.84750721254386
+Sample mean:          50.01719813258122
+Sample variance:      13.650296371917742
+Sample std deviation: 3.6946307490624477
+Maximum:              63.81750721251592
 Minimum:              37.90843721246347
 
 - Hourly Response Time-1
 
-Sample mean:          50.3074668813414
-Sample variance:      13.240410740158376
-Sample std deviation: 3.638737520096548
-Maximum:              62.80763201415539
-Minimum:              38.055534929037094
+Sample mean:          50.17153874163124
+Sample variance:      13.075322722165444
+Sample std deviation: 3.615981571048924
+Maximum:              62.65763201471418
+Minimum:              37.90553492959589
 
 - Hourly Response Time-2
 
-Sample mean:          50.730548931644634
-Sample variance:      356.7522972742588
-Sample std deviation: 18.887887581046716
-Maximum:              704.0128486603498
-Minimum:              38.81780504621565
+Sample mean:          50.12053058168769
+Sample variance:      12.911438663610094
+Sample std deviation: 3.593249040020757
+Maximum:              64.31591324135661
+Minimum:              38.78780504502356
 
 - Hourly Response Time-3
 
-Sample mean:          50.25074142786862
-Sample variance:      12.347361052254856
-Sample std deviation: 3.513881194954499
+Sample mean:          50.148434469311546
+Sample variance:      12.347312284666428
+Sample std deviation: 3.513874255670858
 Maximum:              63.65797086432576
 Minimum:              39.90548048727214
 
 - Hourly Response Time-4
 
-Sample mean:          50.200940497617395
-Sample variance:      12.127787810401346
-Sample std deviation: 3.482497352533286
+Sample mean:          50.09944118327825
+Sample variance:      12.215490895440539
+Sample std deviation: 3.4950666510727
 Maximum:              61.655645148828626
-Minimum:              39.30651440098882
+Minimum:              39.15651439875364
 
 - Hourly Response Time-5
 
-Sample mean:          50.186050591317645
-Sample variance:      12.658425278530034
-Sample std deviation: 3.5578680805406533
+Sample mean:          50.06254588695389
+Sample variance:      12.605311741251274
+Sample std deviation: 3.5503959978080295
 Maximum:              62.522351693362
 Minimum:              37.906150199472904
 
 - Hourly Response Time-6
 
-Sample mean:          50.21081559161104
-Sample variance:      12.164620805724038
-Sample std deviation: 3.4877816453619968
-Maximum:              60.806307941675186
+Sample mean:          50.04581523724925
+Sample variance:      12.052175849968348
+Sample std deviation: 3.471624382039098
+Maximum:              60.65630793944001
 Minimum:              38.90559313073754
 
 - Hourly Response Time-7
 
-Sample mean:          50.191309749177655
-Sample variance:      12.369934519765785
-Sample std deviation: 3.517091770165485
+Sample mean:          50.04773928360865
+Sample variance:      12.021640822505008
+Sample std deviation: 3.467223791811686
 Maximum:              60.65464633330703
-Minimum:              40.555533200502396
+Minimum:              40.40553319826722
 
 - Hourly Response Time-8
 
-Sample mean:          50.294888157430606
-Sample variance:      12.604540705620993
-Sample std deviation: 3.5502874116923255
+Sample mean:          50.187298555899055
+Sample variance:      12.528659661930272
+Sample std deviation: 3.5395846736489114
 Maximum:              62.15935371443629
 Minimum:              37.655528359115124
 
 - Hourly Response Time-9
 
-Sample mean:          50.26214462494707
-Sample variance:      12.647400397750767
-Sample std deviation: 3.5563183768823015
-Maximum:              63.17680937796831
-Minimum:              40.805036041885614
+Sample mean:          50.16012559990538
+Sample variance:      12.423723740006386
+Sample std deviation: 3.5247303074145098
+Maximum:              62.86180937290192
+Minimum:              40.65503603965044
 
 - Hourly Response Time-10
 
-Sample mean:          50.45795659992427
-Sample variance:      12.412097268953062
-Sample std deviation: 3.523080650361706
+Sample mean:          50.29157194712784
+Sample variance:      12.451388649280661
+Sample std deviation: 3.5286525260048855
 Maximum:              63.36377336084843
-Minimum:              38.71737848222256
+Minimum:              38.61237847805023
 
 - Hourly Response Time-11
 
-Sample mean:          50.1582298819335
-Sample variance:      12.241325836219207
-Sample std deviation: 3.498760614306044
+Sample mean:          50.02417143135425
+Sample variance:      12.234957152904533
+Sample std deviation: 3.4978503617085357
 Maximum:              62.65769938379526
-Minimum:              36.55505983531475
+Minimum:              36.40505983680487
 
 - Hourly Response Time-12
 
@@ -2251,106 +2251,106 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          50.70100258021283
-Sample variance:      12.940289477339476
-Sample std deviation: 3.5972613857404743
+Sample mean:          50.42545810128908
+Sample variance:      12.282890900737137
+Sample std deviation: 3.5046955503634174
 Maximum:              66.53427178412676
-Minimum:              36.58831895887852
+Minimum:              36.43831896036863
 
 - Hourly Response Time-0
 
-Sample mean:          50.297723664728615
-Sample variance:      12.402466366315043
-Sample std deviation: 3.521713555403824
-Maximum:              62.423188800457865
+Sample mean:          50.2374018135635
+Sample variance:      12.470760454387877
+Sample std deviation: 3.531396388737446
+Maximum:              62.33318880060688
 Minimum:              39.435207074391656
 
 - Hourly Response Time-1
 
-Sample mean:          50.269647907552375
-Sample variance:      12.485950277716809
-Sample std deviation: 3.53354641652219
-Maximum:              62.09234190871939
-Minimum:              38.10031893476844
+Sample mean:          50.16840496530312
+Sample variance:      12.296965247158697
+Sample std deviation: 3.5067029026079037
+Maximum:              61.94234190881252
+Minimum:              37.95031893532723
 
 - Hourly Response Time-2
 
-Sample mean:          50.150100946889026
-Sample variance:      12.446693957864612
-Sample std deviation: 3.527987238903312
-Maximum:              61.947461620904505
+Sample mean:          50.07431464863173
+Sample variance:      12.408544657772344
+Sample std deviation: 3.5225764232692445
+Maximum:              62.68801692686975
 Minimum:              40.43302639760077
 
 - Hourly Response Time-3
 
-Sample mean:          50.26591477859219
-Sample variance:      12.666935478025529
-Sample std deviation: 3.5590638485457844
-Maximum:              63.08945774845779
+Sample mean:          50.185060961622476
+Sample variance:      12.686145377424701
+Sample std deviation: 3.56176155538586
+Maximum:              62.93945774808526
 Minimum:              39.12799075990915
 
 - Hourly Response Time-4
 
-Sample mean:          50.232957605752325
-Sample variance:      12.454751482175293
-Sample std deviation: 3.529128997667171
+Sample mean:          50.167291869680604
+Sample variance:      12.444516959162781
+Sample std deviation: 3.527678692733053
 Maximum:              60.707353323698044
-Minimum:              37.84097241982818
+Minimum:              37.69097241945565
 
 - Hourly Response Time-5
 
-Sample mean:          50.18959211984372
-Sample variance:      12.4509983728203
-Sample std deviation: 3.5285972245100883
+Sample mean:          50.10105205949369
+Sample variance:      12.341787526116981
+Sample std deviation: 3.513088032787818
 Maximum:              61.68564925342798
-Minimum:              40.13544388860464
+Minimum:              40.09044389054179
 
 - Hourly Response Time-6
 
-Sample mean:          50.21274635721956
-Sample variance:      12.342105926733254
-Sample std deviation: 3.5131333488402134
+Sample mean:          50.1561149637831
+Sample variance:      12.413482245632762
+Sample std deviation: 3.5232772024966703
 Maximum:              62.436017256230116
-Minimum:              38.42989371344447
+Minimum:              38.33989371359348
 
 - Hourly Response Time-7
 
-Sample mean:          50.32125168012825
-Sample variance:      12.637049339922651
-Sample std deviation: 3.5548627737118985
+Sample mean:          50.23881799827676
+Sample variance:      12.579571803575778
+Sample std deviation: 3.5467692064152945
 Maximum:              62.93477848917246
-Minimum:              37.83649193495512
+Minimum:              37.686491932719946
 
 - Hourly Response Time-8
 
-Sample mean:          50.28065230225724
-Sample variance:      11.366168383016198
-Sample std deviation: 3.3713748505641137
-Maximum:              60.284211441874504
+Sample mean:          50.20621977996742
+Sample variance:      11.297263986468646
+Sample std deviation: 3.361140280688779
+Maximum:              59.93849840015173
 Minimum:              38.94976268708706
 
 - Hourly Response Time-9
 
-Sample mean:          50.05827928884558
-Sample variance:      12.224323500109506
-Sample std deviation: 3.496330004463181
-Maximum:              61.09457390755415
+Sample mean:          49.95568652495962
+Sample variance:      12.257051888117353
+Sample std deviation: 3.5010072676470343
+Maximum:              60.944573909044266
 Minimum:              37.19124115258455
 
 - Hourly Response Time-10
 
-Sample mean:          51.00051723028066
-Sample variance:      12.863144072660242
-Sample std deviation: 3.58652255989841
+Sample mean:          50.599978325996666
+Sample variance:      12.046695256626172
+Sample std deviation: 3.4708349509341656
 Maximum:              66.53427178412676
-Minimum:              36.58831895887852
+Minimum:              36.43831896036863
 
 - Hourly Response Time-11
 
-Sample mean:          50.971001612109106
-Sample variance:      13.305718297951795
-Sample std deviation: 3.6477004123079784
-Maximum:              66.4428019747138
+Sample mean:          50.58353316900466
+Sample variance:      12.33318963231391
+Sample std deviation: 3.5118641249789135
+Maximum:              63.146326929330826
 Minimum:              37.08974822610617
 
 - Hourly Response Time-12
@@ -2453,105 +2453,105 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          50.77211996545522
-Sample variance:      173.49303738899047
-Sample std deviation: 13.171675572568224
-Maximum:              2342.530045274645
+Sample mean:          50.436976621030354
+Sample variance:      12.654881371903825
+Sample std deviation: 3.5573700077309676
+Maximum:              68.43155109230429
 Minimum:              36.278679721057415
 
 - Hourly Response Time-0
 
-Sample mean:          50.28306885847071
-Sample variance:      12.757464146877396
-Sample std deviation: 3.571759250968267
+Sample mean:          50.22817290513124
+Sample variance:      12.809166397092595
+Sample std deviation: 3.578989577673089
 Maximum:              62.93261033948511
-Minimum:              38.69286717893556
+Minimum:              38.67786717892159
 
 - Hourly Response Time-1
 
-Sample mean:          50.13719840585216
-Sample variance:      12.069357152385265
-Sample std deviation: 3.474098034365937
-Maximum:              68.5815510917455
+Sample mean:          50.07859055433929
+Sample variance:      12.270001629017372
+Sample std deviation: 3.502856210154418
+Maximum:              68.43155109230429
 Minimum:              39.60597320087254
 
 - Hourly Response Time-2
 
-Sample mean:          50.17584335553031
-Sample variance:      12.562163766767199
-Sample std deviation: 3.5443142872447413
+Sample mean:          50.11480418772877
+Sample variance:      12.503713323182291
+Sample std deviation: 3.536059010138588
 Maximum:              63.45794625207782
 Minimum:              40.433456817641854
 
 - Hourly Response Time-3
 
-Sample mean:          50.27710139442934
-Sample variance:      12.65820106728833
-Sample std deviation: 3.5578365711887794
+Sample mean:          50.20996050285295
+Sample variance:      12.849445620898244
+Sample std deviation: 3.584612338998214
 Maximum:              61.95105913467705
-Minimum:              40.44547491520643
+Minimum:              40.430474914610386
 
 - Hourly Response Time-4
 
-Sample mean:          50.2312861152333
-Sample variance:      12.477505994527728
-Sample std deviation: 3.5323513407541625
-Maximum:              61.69588916748762
-Minimum:              39.98446995578706
+Sample mean:          50.16627241728212
+Sample variance:      12.4484656296854
+Sample std deviation: 3.5282383181533246
+Maximum:              61.63588916696608
+Minimum:              40.689658515155315
 
 - Hourly Response Time-5
 
-Sample mean:          50.1268898679659
-Sample variance:      13.484697301887342
-Sample std deviation: 3.6721515902652144
+Sample mean:          50.0655254747087
+Sample variance:      13.52689255918338
+Sample std deviation: 3.677892407233167
 Maximum:              64.68820916116238
 Minimum:              40.19171657413244
 
 - Hourly Response Time-6
 
-Sample mean:          50.115533155503186
-Sample variance:      12.352101174440966
-Sample std deviation: 3.51455561549977
-Maximum:              63.091995134949684
-Minimum:              39.94320081919432
+Sample mean:          50.047350910706
+Sample variance:      12.322247337158347
+Sample std deviation: 3.510305875156515
+Maximum:              62.94199513271451
+Minimum:              39.83820082247257
 
 - Hourly Response Time-7
 
-Sample mean:          52.29541274955434
-Sample variance:      4229.671025113494
-Sample std deviation: 65.03592103686618
-Maximum:              2342.530045274645
+Sample mean:          50.402945058237925
+Sample variance:      13.321999834573278
+Sample std deviation: 3.6499314835450374
+Maximum:              61.44980564340949
 Minimum:              37.62611098214984
 
 - Hourly Response Time-8
 
-Sample mean:          50.23701483521682
-Sample variance:      12.156473641351027
-Sample std deviation: 3.4866134918214016
-Maximum:              62.097661308944225
-Minimum:              39.4477152004838
+Sample mean:          50.1406670439069
+Sample variance:      12.196487601610825
+Sample std deviation: 3.492347004753512
+Maximum:              61.94766130670905
+Minimum:              38.435624323785305
 
 - Hourly Response Time-9
 
-Sample mean:          50.466076121611636
-Sample variance:      12.027701392210496
-Sample std deviation: 3.468097661861686
-Maximum:              60.17260305583477
+Sample mean:          50.40016850039746
+Sample variance:      12.071733016248384
+Sample std deviation: 3.474439957208699
+Maximum:              60.18423446267843
 Minimum:              36.68285544216633
 
 - Hourly Response Time-10
 
-Sample mean:          50.98174953958227
-Sample variance:      13.529470765541056
-Sample std deviation: 3.678242891047444
+Sample mean:          50.586395785517176
+Sample variance:      12.73814476490557
+Sample std deviation: 3.569053763241116
 Maximum:              64.95447070896626
 Minimum:              36.278679721057415
 
 - Hourly Response Time-11
 
-Sample mean:          50.97063706550122
-Sample variance:      13.29810089844432
-Sample std deviation: 3.646656125609367
+Sample mean:          50.59255883471347
+Sample variance:      12.472978112358659
+Sample std deviation: 3.5317103664313496
 Maximum:              64.4049837961793
 Minimum:              38.47672175616026
 
@@ -2655,107 +2655,107 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          200.91808408440642
-Sample variance:      199.69611904452086
-Sample std deviation: 14.13138772536232
-Maximum:              268.95621874928474
+Sample mean:          200.82536154928886
+Sample variance:      199.76361726042384
+Sample std deviation: 14.133775760936064
+Maximum:              268.80621875077486
 Minimum:              147.7292725816369
 
 - Hourly Response Time-0
 
-Sample mean:          199.9985568209138
-Sample variance:      194.3900740358596
-Sample std deviation: 13.942384087230549
+Sample mean:          199.9677106114738
+Sample variance:      194.67754317079164
+Sample std deviation: 13.952689460128884
 Maximum:              239.21908675832674
 Minimum:              153.21846066368744
 
 - Hourly Response Time-1
 
-Sample mean:          200.19286340149802
-Sample variance:      210.37571979542824
-Sample std deviation: 14.50433451749608
-Maximum:              247.37723123840988
+Sample mean:          199.98564174818293
+Sample variance:      209.25200698546556
+Sample std deviation: 14.465545512889085
+Maximum:              247.22723123896867
 Minimum:              162.18794758431613
 
 - Hourly Response Time-2
 
-Sample mean:          200.31015399216756
-Sample variance:      187.69308289506338
-Sample std deviation: 13.70011251395635
-Maximum:              248.3917503748089
+Sample mean:          200.25185107718474
+Sample variance:      187.239757651699
+Sample std deviation: 13.683557931024335
+Maximum:              248.24175037443638
 Minimum:              155.24702560622245
 
 - Hourly Response Time-3
 
-Sample mean:          200.74020437980712
-Sample variance:      197.5889035189846
-Sample std deviation: 14.056632011936024
-Maximum:              247.53870724514127
-Minimum:              158.38796233944595
+Sample mean:          200.63748981544887
+Sample variance:      198.08177384337387
+Sample std deviation: 14.074152686516296
+Maximum:              247.17870724573731
+Minimum:              158.23796233907342
 
 - Hourly Response Time-4
 
-Sample mean:          200.13305467151483
-Sample variance:      210.1346676088212
-Sample std deviation: 14.496022475452403
-Maximum:              251.37606688030064
-Minimum:              151.24597270600498
+Sample mean:          200.12210897197343
+Sample variance:      214.68754445611356
+Sample std deviation: 14.652219779136319
+Maximum:              251.2260668799281
+Minimum:              151.23097270540893
 
 - Hourly Response Time-5
 
-Sample mean:          200.04509149125542
-Sample variance:      200.31011152795705
-Sample std deviation: 14.15309547512335
-Maximum:              248.2510672993958
-Minimum:              151.22077405452728
+Sample mean:          199.99133529297438
+Sample variance:      200.11274880695478
+Sample std deviation: 14.146121334378368
+Maximum:              248.221067301929
+Minimum:              149.22497722133994
 
 - Hourly Response Time-6
 
-Sample mean:          201.3117045075815
-Sample variance:      198.04798382846712
-Sample std deviation: 14.072952207282846
+Sample mean:          201.09060101259908
+Sample variance:      197.03028355252147
+Sample std deviation: 14.036747613052016
 Maximum:              253.2373652458191
 Minimum:              159.22536930814385
 
 - Hourly Response Time-7
 
-Sample mean:          200.2974905807914
-Sample variance:      201.0076452970906
-Sample std deviation: 14.177716505033192
+Sample mean:          200.189396420143
+Sample variance:      201.78580267342753
+Sample std deviation: 14.205132969227268
 Maximum:              244.22038070484996
 Minimum:              155.24066691845655
 
 - Hourly Response Time-8
 
-Sample mean:          200.60157996825032
-Sample variance:      176.48250178081452
-Sample std deviation: 13.28467168509687
+Sample mean:          200.52204445908103
+Sample variance:      178.36334318306865
+Sample std deviation: 13.355273983826338
 Maximum:              245.22467240318656
 Minimum:              159.23006055504084
 
 - Hourly Response Time-9
 
-Sample mean:          201.05533816798092
-Sample variance:      199.1485295765783
-Sample std deviation: 14.11199948896606
-Maximum:              268.95621874928474
+Sample mean:          200.96450826824628
+Sample variance:      199.39218455444177
+Sample std deviation: 14.120629750632292
+Maximum:              268.80621875077486
 Minimum:              147.7292725816369
 
 - Hourly Response Time-10
 
-Sample mean:          201.0858508947167
-Sample variance:      201.9380559631618
-Sample std deviation: 14.210491052851122
+Sample mean:          201.0049019672248
+Sample variance:      201.56829665320916
+Sample std deviation: 14.197475009775829
 Maximum:              260.70506328344345
 Minimum:              152.85306411981583
 
 - Hourly Response Time-11
 
-Sample mean:          201.17594591336055
-Sample variance:      200.20181813855362
-Sample std deviation: 14.149269173301978
-Maximum:              255.01525573432446
-Minimum:              147.92155284434557
+Sample mean:          201.0742335228949
+Sample variance:      200.0026552934435
+Sample std deviation: 14.142229502219354
+Maximum:              254.86525573581457
+Minimum:              147.8289631009102
 
 - Hourly Response Time-12
 
@@ -2857,107 +2857,107 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          201.02233400734238
-Sample variance:      198.6384820580551
-Sample std deviation: 14.093916491098389
+Sample mean:          200.91861302835906
+Sample variance:      198.81528930204564
+Sample std deviation: 14.100187562654819
 Maximum:              266.86999948322773
 Minimum:              146.01889910548925
 
 - Hourly Response Time-0
 
-Sample mean:          200.25045173131159
-Sample variance:      185.20174189278484
-Sample std deviation: 13.608884667480464
+Sample mean:          200.09833851961264
+Sample variance:      185.91972001820804
+Sample std deviation: 13.635238172404911
 Maximum:              256.2450189120136
-Minimum:              155.1592045481084
+Minimum:              155.11420454806648
 
 - Hourly Response Time-1
 
-Sample mean:          200.77422063372265
-Sample variance:      196.53453859962488
-Sample std deviation: 14.019077665796166
-Maximum:              243.40165539365262
-Minimum:              157.36238831933588
+Sample mean:          200.90374544531986
+Sample variance:      195.1699959442549
+Sample std deviation: 13.970325548971825
+Maximum:              243.20665539382026
+Minimum:              157.21238831989467
 
 - Hourly Response Time-2
 
-Sample mean:          201.37731958631758
-Sample variance:      214.66849183391767
-Sample std deviation: 14.651569603080677
+Sample mean:          201.19810184240504
+Sample variance:      216.10173986300518
+Sample std deviation: 14.700399309644796
 Maximum:              250.22233889251947
 Minimum:              156.14710196107626
 
 - Hourly Response Time-3
 
-Sample mean:          200.76890994516674
-Sample variance:      209.42636903298515
-Sample std deviation: 14.47157106305273
-Maximum:              246.37016062997282
-Minimum:              156.1773831155151
+Sample mean:          200.6835408222734
+Sample variance:      210.71621534421095
+Sample std deviation: 14.516067488965838
+Maximum:              246.4087617341429
+Minimum:              156.13238311558962
 
 - Hourly Response Time-4
 
-Sample mean:          200.39046577609258
-Sample variance:      195.92768670748814
-Sample std deviation: 13.997417144155136
-Maximum:              249.30737536028028
+Sample mean:          200.33280206114898
+Sample variance:      194.29688724382547
+Sample std deviation: 13.939041833778441
+Maximum:              245.30305131152272
 Minimum:              156.2148936484009
 
 - Hourly Response Time-5
 
-Sample mean:          200.22028284390615
-Sample variance:      192.96066120012415
-Sample std deviation: 13.891028082907477
-Maximum:              245.36743883416057
+Sample mean:          200.21626065226437
+Sample variance:      195.02057854737166
+Sample std deviation: 13.964976854523306
+Maximum:              245.2174388319254
 Minimum:              158.21745965257287
 
 - Hourly Response Time-6
 
-Sample mean:          200.35311431595062
-Sample variance:      199.8050272968918
-Sample std deviation: 14.135240616872846
-Maximum:              246.39945816993713
+Sample mean:          200.4097873114146
+Sample variance:      200.00588252735645
+Sample std deviation: 14.142343600950886
+Maximum:              246.24945816770196
 Minimum:              157.21434856578708
 
 - Hourly Response Time-7
 
-Sample mean:          200.5184674870217
-Sample variance:      208.0422478880872
-Sample std deviation: 14.4236697094771
-Maximum:              243.2119152881205
-Minimum:              160.182934589684
+Sample mean:          200.51488245439515
+Sample variance:      207.53828025082464
+Sample std deviation: 14.406188956515344
+Maximum:              243.18191528692842
+Minimum:              160.13793459162116
 
 - Hourly Response Time-8
 
-Sample mean:          200.56672447433453
-Sample variance:      206.3047704054847
-Sample std deviation: 14.363313350529003
-Maximum:              247.3648125268519
-Minimum:              156.39261619374156
+Sample mean:          200.5602043192323
+Sample variance:      206.3843622297241
+Sample std deviation: 14.366083747135963
+Maximum:              247.21481252461672
+Minimum:              156.2426161915064
 
 - Hourly Response Time-9
 
-Sample mean:          201.28410209873178
-Sample variance:      195.95575366186597
-Sample std deviation: 13.998419684445311
+Sample mean:          201.18697274524507
+Sample variance:      196.10842150983666
+Sample std deviation: 14.00387166143123
 Maximum:              253.93678130954504
 Minimum:              146.01889910548925
 
 - Hourly Response Time-10
 
-Sample mean:          201.23264177279907
-Sample variance:      200.66808574293373
-Sample std deviation: 14.16573632900647
+Sample mean:          201.10685697740675
+Sample variance:      201.0133519130752
+Sample std deviation: 14.1779177566057
 Maximum:              256.0170924887061
 Minimum:              150.9597716704011
 
 - Hourly Response Time-11
 
-Sample mean:          201.03595712143476
-Sample variance:      196.42883881240223
-Sample std deviation: 14.015307303530745
+Sample mean:          200.87133172862653
+Sample variance:      196.45776041408953
+Sample std deviation: 14.016339051767032
 Maximum:              266.86999948322773
-Minimum:              147.8403484672308
+Minimum:              147.6903484687209
 
 - Hourly Response Time-12
 
@@ -3059,106 +3059,106 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          200.58415603970278
-Sample variance:      210.06468468672907
-Sample std deviation: 14.493608408078682
-Maximum:              843.0454171821475
-Minimum:              149.4505083076656
+Sample mean:          200.48663177101474
+Sample variance:      198.90437543841185
+Sample std deviation: 14.103346249681735
+Maximum:              265.22550531849265
+Minimum:              150.49472642689943
 
 - Hourly Response Time-0
 
-Sample mean:          200.18531456471968
-Sample variance:      195.87585414061286
-Sample std deviation: 13.995565516999049
+Sample mean:          200.0992081983607
+Sample variance:      194.32727875306347
+Sample std deviation: 13.940131948911512
 Maximum:              245.221081153024
-Minimum:              155.1892147473991
+Minimum:              155.1292147473432
 
 - Hourly Response Time-1
 
-Sample mean:          200.04876318446065
-Sample variance:      203.3988925494272
-Sample std deviation: 14.26179836308967
-Maximum:              246.21102581173182
-Minimum:              154.83730964828283
+Sample mean:          199.9487248514779
+Sample variance:      201.30469379736985
+Sample std deviation: 14.188188531217431
+Maximum:              246.16602581180632
+Minimum:              154.23730964865535
 
 - Hourly Response Time-2
 
-Sample mean:          200.06666791682963
-Sample variance:      192.27129466730332
-Sample std deviation: 13.866192507941873
-Maximum:              240.2430207375437
-Minimum:              159.20110880862921
+Sample mean:          199.855025140812
+Sample variance:      190.3975640835429
+Sample std deviation: 13.798462381133012
+Maximum:              240.22802073694766
+Minimum:              159.22252944111824
 
 - Hourly Response Time-3
 
-Sample mean:          199.88991821355424
-Sample variance:      208.84041037714348
-Sample std deviation: 14.451311718219335
-Maximum:              265.3755053188652
-Minimum:              151.23766041360795
+Sample mean:          199.9275853915357
+Sample variance:      207.58791926175547
+Sample std deviation: 14.407911689823598
+Maximum:              265.22550531849265
+Minimum:              151.16266041249037
 
 - Hourly Response Time-4
 
-Sample mean:          201.14412083801176
-Sample variance:      518.4545364799928
-Sample std deviation: 22.769596757079228
-Maximum:              843.0454171821475
-Minimum:              156.3806318398565
+Sample mean:          200.431567764989
+Sample variance:      186.62485306816527
+Sample std deviation: 13.661070714558404
+Maximum:              244.20879749581218
+Minimum:              156.23063183948398
 
 - Hourly Response Time-5
 
-Sample mean:          200.76317399891283
-Sample variance:      198.28132530415218
-Sample std deviation: 14.081240190556802
-Maximum:              251.69276832044125
-Minimum:              149.4505083076656
+Sample mean:          200.68586322289312
+Sample variance:      197.2436033141636
+Sample std deviation: 14.044344175295748
+Maximum:              251.54276831820607
+Minimum:              156.41436889767647
 
 - Hourly Response Time-6
 
-Sample mean:          200.6854722348697
-Sample variance:      197.63026512871667
-Sample std deviation: 14.058103183883546
+Sample mean:          200.60043983964803
+Sample variance:      197.44115911124536
+Sample std deviation: 14.051375701732743
 Maximum:              254.624452970922
-Minimum:              152.7856126986444
+Minimum:              152.63561269640923
 
 - Hourly Response Time-7
 
-Sample mean:          200.6566016800216
-Sample variance:      200.9124884886328
-Sample std deviation: 14.174360249712604
+Sample mean:          200.55957506556493
+Sample variance:      201.5805438416361
+Sample std deviation: 14.197906318948442
 Maximum:              247.58441046625376
 Minimum:              153.46321656182408
 
 - Hourly Response Time-8
 
-Sample mean:          200.50652736702318
-Sample variance:      207.1250129386007
-Sample std deviation: 14.391838414136002
+Sample mean:          200.41700809105447
+Sample variance:      207.0379884418836
+Sample std deviation: 14.38881469899045
 Maximum:              253.53963829949498
 Minimum:              152.40690818056464
 
 - Hourly Response Time-9
 
-Sample mean:          201.03580807046507
-Sample variance:      200.34887791846407
-Sample std deviation: 14.15446494638579
+Sample mean:          200.9392577444532
+Sample variance:      199.73886902004205
+Sample std deviation: 14.132900233852995
 Maximum:              246.66629667580128
 Minimum:              150.49472642689943
 
 - Hourly Response Time-10
 
-Sample mean:          200.37966029123493
-Sample variance:      198.05531023659813
-Sample std deviation: 14.073212505913428
+Sample mean:          200.3636602561677
+Sample variance:      197.71504268153834
+Sample std deviation: 14.061118116335498
 Maximum:              255.57469307631254
-Minimum:              152.78213534504175
+Minimum:              152.63213534653187
 
 - Hourly Response Time-11
 
-Sample mean:          199.95982761845502
-Sample variance:      182.12264349275765
-Sample std deviation: 13.495282267991199
-Maximum:              254.40027204155922
+Sample mean:          199.9317107565143
+Sample variance:      181.03283206184608
+Sample std deviation: 13.454844185714158
+Maximum:              254.25027204304934
 Minimum:              162.22663079947233
 
 - Hourly Response Time-12
@@ -3261,106 +3261,106 @@ Minimum:              0.0
 
 - UB Response time
 
-Sample mean:          200.4129168714713
-Sample variance:      193.13678083755883
-Sample std deviation: 13.897365967605474
+Sample mean:          200.2455941722343
+Sample variance:      192.72538359659316
+Sample std deviation: 13.882556810493993
 Maximum:              261.64565006643534
-Minimum:              156.6537133976817
+Minimum:              156.50371339917183
 
 - Hourly Response Time-0
 
-Sample mean:          198.31340653960706
-Sample variance:      166.8349842445983
-Sample std deviation: 12.916461754079494
+Sample mean:          198.07124368676665
+Sample variance:      171.16996859963984
+Sample std deviation: 13.083194128332723
 Maximum:              237.1403764220886
-Minimum:              176.18098130857106
+Minimum:              172.2675760714901
 
 - Hourly Response Time-1
 
-Sample mean:          198.87983276633136
-Sample variance:      181.4510668102044
-Sample std deviation: 13.470377381877777
-Maximum:              229.21264813560992
+Sample mean:          198.95344811168258
+Sample variance:      183.71155457434685
+Sample std deviation: 13.554023556654565
+Maximum:              229.15264813508838
 Minimum:              167.25291456468403
 
 - Hourly Response Time-2
 
-Sample mean:          201.22406709523727
-Sample variance:      198.0399995305237
-Sample std deviation: 14.072668529121394
+Sample mean:          200.8090283217219
+Sample variance:      193.2587075423171
+Sample std deviation: 13.901751959458819
 Maximum:              231.25536710210145
 Minimum:              169.2595524135977
 
 - Hourly Response Time-3
 
-Sample mean:          199.81875110728046
-Sample variance:      272.55716531011404
-Sample std deviation: 16.509305415737938
-Maximum:              236.40368435904384
-Minimum:              162.30238420143723
+Sample mean:          199.51676275899013
+Sample variance:      273.5706550017742
+Sample std deviation: 16.53997143291893
+Maximum:              236.2536843586713
+Minimum:              162.25780994817615
 
 - Hourly Response Time-4
 
-Sample mean:          201.47976288437843
-Sample variance:      188.84474910244447
-Sample std deviation: 13.742079504297902
-Maximum:              238.38223875313997
+Sample mean:          201.10069929974773
+Sample variance:      182.018945560369
+Sample std deviation: 13.491439714143521
+Maximum:              238.23223875276744
 Minimum:              173.2277528345585
 
 - Hourly Response Time-5
 
-Sample mean:          201.91886826929343
-Sample variance:      216.66144502777053
-Sample std deviation: 14.719424072557
+Sample mean:          201.82104138139096
+Sample variance:      219.53283786589262
+Sample std deviation: 14.816640572879287
 Maximum:              247.68136855587363
-Minimum:              161.5749866552651
+Minimum:              158.56191827729344
 
 - Hourly Response Time-6
 
-Sample mean:          200.94218958372085
-Sample variance:      180.69677774372528
-Sample std deviation: 13.442350157012177
-Maximum:              241.70203917473555
-Minimum:              164.588992215693
+Sample mean:          200.9351001300483
+Sample variance:      180.19204032290358
+Sample std deviation: 13.42356287737736
+Maximum:              241.55203917250037
+Minimum:              164.67838387936354
 
 - Hourly Response Time-7
 
-Sample mean:          200.4713398894735
-Sample variance:      185.28502750864203
-Sample std deviation: 13.611944295678043
-Maximum:              239.26610670238733
+Sample mean:          200.1448243224698
+Sample variance:      178.27454253418566
+Sample std deviation: 13.35194901631165
+Maximum:              233.7365479208529
 Minimum:              168.4786836989224
 
 - Hourly Response Time-8
 
-Sample mean:          198.07077380339763
-Sample variance:      177.97248464788254
-Sample std deviation: 13.34063284285579
+Sample mean:          198.02220207637853
+Sample variance:      177.6328954670709
+Sample std deviation: 13.327899139289391
 Maximum:              236.53082615882158
-Minimum:              160.17359805852175
+Minimum:              159.57359805703163
 
 - Hourly Response Time-9
 
-Sample mean:          200.84006168243366
-Sample variance:      195.17984637729094
-Sample std deviation: 13.970678092966388
+Sample mean:          200.66289434548128
+Sample variance:      196.80735448384445
+Sample std deviation: 14.028804456682845
 Maximum:              244.51575360447168
-Minimum:              156.6537133976817
+Minimum:              156.50371339917183
 
 - Hourly Response Time-10
 
-Sample mean:          201.23460630155887
-Sample variance:      194.36766427587955
-Sample std deviation: 13.941580408112975
+Sample mean:          200.95354926101982
+Sample variance:      196.2974180129498
+Sample std deviation: 14.010618045359378
 Maximum:              261.64565006643534
-Minimum:              166.0777287632227
+Minimum:              164.006661683321
 
 - Hourly Response Time-11
 
-Sample mean:          198.93210529576282
-Sample variance:      169.68927440249476
-Sample std deviation: 13.026483577792387
-Maximum:              224.37452214211226
+Sample mean:          198.96866427875452
+Sample variance:      169.51891354852904
+Sample std deviation: 13.019942916485043
+Maximum:              224.22452214360237
 Minimum:              171.21471244841814
 
 - Hourly Response Time-12

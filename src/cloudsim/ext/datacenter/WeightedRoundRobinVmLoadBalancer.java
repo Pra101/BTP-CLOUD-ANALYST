@@ -32,14 +32,12 @@ public class WeightedRoundRobinVmLoadBalancer extends VmLoadBalancer implements 
 	public int weightedRoundRobin() {
 		int i = -1;
 		int cw = 0;
-		
 		while (true) { 
 			i = (i + 1) % 50; 
 			if (i == 0) { 
 				cw = cw - vmGCD(vmWeights); 
 				if (cw <= 0) { 
-					cw = vmMax(vmWeights); 
-//					if (cw == 0)  return 0; 
+					cw = vmMax(vmWeights);
 				} 
 			} 
 			if (vmWeights[i] >= cw)  return i; 

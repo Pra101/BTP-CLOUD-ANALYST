@@ -17,10 +17,6 @@ public class HybridVMLoadBalancerNEW extends VmLoadBalancer implements CloudSimE
         dcb.addCloudSimEventListener(this);
     }
 
-    /**
-     * @return VM id of the first available VM from the vmStatesList in the calling
-     * 			{@link DatacenterController}
-     */
     @Override
     public int getNextAvailableVm(){
         int vmId = -1;
