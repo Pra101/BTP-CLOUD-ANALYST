@@ -8,11 +8,16 @@ public class HybridVMLoadBalancer extends VmLoadBalancer{
     int virtualMachineCount = 0;
     int index = 0;
 
+    // for ordering the Virtual machines according to their pre-occupancy
+    AVLTreeBalancer<VMObjectAVL> vmTree = new AVLTreeBalancer<>();
+    Map<Integer, Integer> occupancy = new HashMap<>();
+
     boolean firstIteration = true;
     public HybridVMLoadBalancer(DatacenterController dcb) {
         super();
         dcbLocal = dcb;
         virtualMachineCount = dcbLocal.vmlist.size();
+
     }
     // Number of particles in the swarm
     private static final int NUM_PARTICLES = 100;
@@ -60,7 +65,33 @@ public class HybridVMLoadBalancer extends VmLoadBalancer{
 
             int ans = (index)%virtualMachineCount +1;
             index = (index+1)%NUM_PARTICLES;
+
+            int tasklen = (int)(Math.random()*(1000-10+1)+10);
+            double currentPreOccupancy = occupancy.get(index);
+//            double currentPreOccupancy = calculatePreoccupancy(index, tasklen);
+            VMObjectAVL targetOb = new VMObjectAVL(currentPreOccupancy, index);
+            VMObjectAVL searchresult = vmTree.search(targetOb).getVirtualMachinePreoccupancy();
+            if(searchresult != null)
+            {
+                VMObjectAVL leftMostDesc = vmTree.getLeftMostDescendant(searchresult).getVmID();
+                ans = leftMostDesc.vmID;
+            }
+            else
+            {
+                VMObjectAVL toBeInserted = new VMObjectAVL(searchresult);
+                toBeInserted.preOccupancy += tasklen;
+                ans = searchresult.vmID;
+                vmTree.insert(toBeInserted);
+            }
+
+            allocatedVm(ans);
             return ans;
+    }
+
+    private double calculatePreoccupancy(int index, int tasklen) {
+        int currentTaskLen = occupancy.get(index);
+        occupancy.replace(index, currentTaskLen+tasklen);
+        return currentTaskLen+tasklen;
     }
 
     private static class sortByBestPosition implements Comparator<Particle>

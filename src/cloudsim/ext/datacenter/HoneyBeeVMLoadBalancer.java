@@ -126,8 +126,9 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 	
 	int calculateFitness(int solValue)
 	{
-//		solValue = 1/(1000-solValue);
-		return solValue;	// taskLength/(VM capacity)
+		solValue = 1/(1-solValue);
+		return solValue;
+//		return solValue;	// taskLength/(VM capacity)
 	}
 	
 	// Bees went in search & finding all the fitness
