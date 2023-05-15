@@ -1,5 +1,6 @@
 package cloudsim.ext.datacenter;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class HybridVMLoadBalancer extends VmLoadBalancer{
@@ -7,22 +8,78 @@ public class HybridVMLoadBalancer extends VmLoadBalancer{
     DatacenterController dcbLocal;
     int virtualMachineCount = 0;
     int index = 0;
+    int totalTasks = 0;
+    // hyper parameters
+    double c1 = 2.1;
+    double c2 = 2.2;
+    double c3 = 2.0;
 
     // for ordering the Virtual machines according to their pre-occupancy
     AVLTreeBalancer<VMObjectAVL> vmTree = new AVLTreeBalancer<>();
     Map<Integer, Integer> occupancy = new HashMap<>();
 
-    //todo add DPSO functions
     boolean firstIteration = true;
     public HybridVMLoadBalancer(DatacenterController dcb) {
         super();
         dcbLocal = dcb;
         virtualMachineCount = dcbLocal.vmlist.size();
-
+        totalTasks = dcb.getAllRequestsProcessed();
     }
+    // DPSO
     // Number of particles in the swarm
     private static final int NUM_PARTICLES = 100;
+
+    // position values
+    // behaving as particles of dpso
+    int[][][] X = new int[NUM_PARTICLES][virtualMachineCount][totalTasks];
+
+    // local best matrix for each particle
+    int[][][] X_local_best = new int[NUM_PARTICLES][virtualMachineCount][totalTasks];
+    // global best position matrix (same for all particles)
+    int [][] P_global_best = new int[virtualMachineCount][totalTasks];
+
+    // velocity matrices
+    double[][][] V = new double[NUM_PARTICLES][virtualMachineCount][totalTasks];
+
+
+    public void randomMatricesInitialization(int[][][]X, double[][][]V, int numParticles, int vmCount, int totalTasks)
+    {
+        Random random = new Random();
+
+        for(int i = 0; i<numParticles; i++)
+        {
+            for(int j = 0; j<vmCount; j++)
+            {
+                for (int k = 0; k<totalTasks; k++)
+                {
+                    if (random.nextDouble() < 0.5) {
+                        X[i][j][k] = 1;
+                    } else {
+                        X[i][j][k] = 0;
+                    }
+                }
+            }
+        }
+
+        for(int i = 0; i<numParticles; i++)
+        {
+            for(int j = 0; j<vmCount; j++)
+            {
+                for (int k = 0; k<totalTasks; k++)
+                {
+                    if (random.nextDouble() < 0.5) {
+                        V[i][j][k] = 1;
+                    } else {
+                        V[i][j][k] = 0;
+                    }
+                }
+            }
+        }
+
+    }
+
     // Maximum number of iterations
+
     private static final int MAX_ITERATIONS = 1000;
 
     @Override
@@ -31,37 +88,43 @@ public class HybridVMLoadBalancer extends VmLoadBalancer{
         if(firstIteration)
         {
             // Create the swarm
-            List<Particle> swarm = new ArrayList<>(NUM_PARTICLES);
-            for (int i = 0; i < NUM_PARTICLES; i++) {
-                swarm.set(i, new Particle());
-            }
+            randomMatricesInitialization(X, V, NUM_PARTICLES, virtualMachineCount, totalTasks);
 
-            Particle globalBest;
             // Run the DPSO algorithm
-            for (int i = 0; i < MAX_ITERATIONS; i++) {
-                // Update the global best position
-                for (Particle p : swarm) {
-                    if (p.getFitness() > p.getBestFitness()) {
-                        p.setBestPosition(p.getPosition());
+            for (int i = 0; i < MAX_ITERATIONS; i++)
+            {
+                // updating the particle velocities
+                for(int k = 0; k<NUM_PARTICLES; k++)
+                {
+                    V[k] = addtn(mult(c1, V[k], virtualMachineCount, totalTasks),
+                            addtn(mult(c2, diff(X_local_best[k], X[k], virtualMachineCount, totalTasks), virtualMachineCount, totalTasks),
+                                    mult(c3, diff(P_global_best, X[k], virtualMachineCount, totalTasks), virtualMachineCount, totalTasks)
+                            , virtualMachineCount, totalTasks), virtualMachineCount, totalTasks);
+
+                    for(int j = 0; j<virtualMachineCount; j++)
+                    {
+                        int maxIndex = 0;
+                        for(int l = 0; l<totalTasks; l++)
+                        {
+                            if(V[k][j][l]>V[k][j][maxIndex])
+                            {
+                                maxIndex = l;
+                            }
+                        }
+
+                        for(int l = 0; l<totalTasks; l++)
+                        {
+                            if (l==maxIndex)
+                                X[k][j][l] = 1;
+                            else
+                                X[k][j][l] = 0;
+                        }
                     }
                 }
 
-                // Update the global best position
-                globalBest = swarm.get(0);
-                for (Particle p : swarm) {
-                    if (p.getBestFitness() > globalBest.getBestFitness()) {
-                        globalBest = p;
-                    }
-                }
-
-                // Update the velocity and position of each particle
-                for (Particle p : swarm) {
-                    p.updateVelocity(globalBest);
-                    p.updatePosition();
-                }
             }
 
-            swarm.sort(new sortByBestPosition());
+
         }
 
             int ans = (index)%virtualMachineCount +1;
@@ -93,6 +156,46 @@ public class HybridVMLoadBalancer extends VmLoadBalancer{
         int currentTaskLen = occupancy.get(index);
         occupancy.replace(index, currentTaskLen+tasklen);
         return currentTaskLen+tasklen;
+    }
+
+    private double[][] mult(double c, double[][] V, int virtualMachineCount, int totalTasks)
+    {
+        for (int i = 0; i<virtualMachineCount; i++)
+        {
+            for(int j = 0; j<totalTasks; j++)
+            {
+                V[i][j] *= c;
+            }
+        }
+
+        return V;
+    }
+
+    private double[][] addtn(double[][]A, double[][]B, int virtualMachineCount, int totalTasks)
+    {
+        double[][] res = new double[virtualMachineCount][totalTasks];
+        for (int i = 0; i<virtualMachineCount; i++)
+        {
+            for(int j = 0; j<totalTasks; j++)
+            {
+                res[i][j] = A[i][j]+B[i][j];
+            }
+        }
+        return res;
+    }
+
+    private double[][] diff(int[][]A, int[][]B, int virtualMachineCount, int totalTasks)
+    {
+        double[][]res = new double[virtualMachineCount][totalTasks];
+        for (int i = 0; i<virtualMachineCount; i++)
+        {
+            for(int j = 0; j<totalTasks; j++)
+            {
+                res[i][j] = A[i][j]-B[i][j];
+            }
+        }
+
+        return res;
     }
 
     private static class sortByBestPosition implements Comparator<Particle>
