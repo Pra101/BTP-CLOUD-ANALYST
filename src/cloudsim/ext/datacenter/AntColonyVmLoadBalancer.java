@@ -17,6 +17,7 @@ public class AntColonyVmLoadBalancer extends VmLoadBalancer {
 	static final double EVAPORATION_FACTOR = 2;
 	private final int NUM_ANTS = 10;
 
+	// todo put optimization function
 	Ant[] ants;
 	DatacenterController dcbLocal;
 

@@ -17,7 +17,9 @@ public class HoneyBeeVMLoadBalancer extends VmLoadBalancer implements CloudSimEv
 	private Map<Integer, VirtualMachineState> vmStatesList;
 	Map<Integer, Integer> vmAllocationCounts = new HashMap<>();
 	Map<Integer, Integer> fitness = new HashMap<>();
-	
+
+
+	// todo Insert an optimization function
 	
 	public HoneyBeeVMLoadBalancer(DatacenterController dcb){
 		this.vmStatesList = dcb.getVmStatesList();

@@ -8,11 +8,11 @@ import cloudsim.ext.event.CloudSimEvent;
 import cloudsim.ext.event.CloudSimEventListener;
 import cloudsim.ext.event.CloudSimEvents;
 
-public class HybridVMLoadBalancerNEW extends VmLoadBalancer implements CloudSimEventListener {
+public class ThrottledHelper extends VmLoadBalancer implements CloudSimEventListener {
 
     private Map<Integer, VirtualMachineState> vmStatesList;
     
-    public HybridVMLoadBalancerNEW(DatacenterController dcb){
+    public ThrottledHelper(DatacenterController dcb){
         this.vmStatesList = dcb.getVmStatesList();
         dcb.addCloudSimEventListener(this);
     }

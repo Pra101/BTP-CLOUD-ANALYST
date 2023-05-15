@@ -12,6 +12,7 @@ public class HybridVMLoadBalancer extends VmLoadBalancer{
     AVLTreeBalancer<VMObjectAVL> vmTree = new AVLTreeBalancer<>();
     Map<Integer, Integer> occupancy = new HashMap<>();
 
+    //todo add DPSO functions
     boolean firstIteration = true;
     public HybridVMLoadBalancer(DatacenterController dcb) {
         super();
