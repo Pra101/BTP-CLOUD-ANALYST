@@ -1,4 +1,4 @@
-# **Load Balancing Optimization**
+# # BTP-CLOUD-ANALYST **Load Balancing Optimization**
 
 The project aims to study various load balancing algorithms for a cloud environment, and further develop and test a hybrid algorithm using a simulated cloud environment on CloudSim.
 
@@ -15,4 +15,3 @@ The project aims to study various load balancing algorithms for a cloud environm
 - Genetic Algorithm Optimization
 - HYBRID Particle Swarn integrated with AVL trees Optimization
 
-# BTP-CLOUD-ANALYST
